@@ -1,16 +1,31 @@
 package org.example.ovapp;
 
-public class Traject {
-    String from;
-    String to;
+import java.util.ArrayList;
+import java.util.List;
 
-    Traject(String from, String to) {
+public class Traject {
+    Station from;
+    Station to;
+    List<Station> inBetweenStations;
+
+    Traject(Station from, Station to) {
         this.from = from;
         this.to = to;
+        this.inBetweenStations = new ArrayList<>();
+    }
+
+    Traject(Station from, Station to, List<Station> inBetweenStation) {
+        this.from = from;
+        this.to = to;
+        this.inBetweenStations = inBetweenStation;
     }
 
     @Override
     public String toString() {
-        return "from: " + from + " to: " + to;
+        return from.toString() + " --> " + to.toString();
+    }
+
+    public List<Station> getInBetweenStations() {
+        return inBetweenStations;
     }
 }

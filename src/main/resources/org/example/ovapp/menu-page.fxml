@@ -26,6 +26,6 @@
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Button fx:id="reloadButton" mnemonicParsing="false" text="Reload" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" onAction="#reloadTraject" />
+      <Button fx:id="chooseButton" mnemonicParsing="false" text="Choose" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" onAction="#chooseButtonClicked" />
    </children>
 </GridPane>

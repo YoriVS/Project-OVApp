@@ -6,6 +6,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class OVApp extends Application {
+    static Traject currentTraject;
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login-page.fxml"));
@@ -18,9 +20,5 @@ public class OVApp extends Application {
 
     public static void main(String[] args) {
         launch();
-    }
-
-    public static Traject getTrajects() {
-        return new Traject("Amsterdam", "Utrecht");
     }
 }
