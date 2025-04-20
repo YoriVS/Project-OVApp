@@ -5,21 +5,22 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
 public class OVApp extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(OVApp.class.getResource("login-page.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 450, 300);
-        stage.setMinWidth(450);
-        stage.setMinHeight(300);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
-        stage.show();
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login-page.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 500, 300);
+        primaryStage.setTitle("Login");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+        primaryStage.setResizable(false);
     }
 
     public static void main(String[] args) {
         launch();
+    }
+
+    public static Traject getTrajects() {
+        return new Traject("Amsterdam", "Utrecht");
     }
 }

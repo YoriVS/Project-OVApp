@@ -1,14 +1,15 @@
 package org.example.ovapp;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+
+import java.io.IOException;
 
 public class LoginController {
     @FXML
-    private Label welcomeText;
+    protected void onLoginButtonClicked(ActionEvent actionEvent) throws IOException {
+        Screen.changeScreen("menu-page", "OVApp", Screen.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
     }
+
 }
