@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class OVApp extends Application {
-    static Traject currentTraject;
+    public static Traject currentTraject;
 
     @Override
     public void start(Stage primaryStage) throws Exception {

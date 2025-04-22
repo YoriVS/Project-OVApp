@@ -1,8 +1,9 @@
-package org.example.ovapp;
+package org.example.ovapp.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
+import org.example.ovapp.*;
 
 import java.io.IOException;
 import java.util.Objects;
