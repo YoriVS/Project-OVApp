@@ -2,7 +2,7 @@ package org.example.ovapp;
 
 public class LanguageHandler {
 
-    public enum Language {EN, NL};
+    public enum Language {EN, NL}
     private Language currentLanguage;
 
 
