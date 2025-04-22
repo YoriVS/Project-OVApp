@@ -1,7 +1,10 @@
 package org.example.ovapp;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+
+import java.io.IOException;
 
 public class TrajectController {
 
@@ -12,5 +15,9 @@ public class TrajectController {
         if (OVApp.currentTraject != null) {
             trajectLabel.setText(OVApp.currentTraject.toString());
         }
+    }
+
+    public void onBackButtonClicked(ActionEvent actionEvent) throws IOException {
+        Screen.changeScreen("menu-page", "Menu", Screen.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
     }
 }

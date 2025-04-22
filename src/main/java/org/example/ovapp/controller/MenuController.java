@@ -12,6 +12,7 @@ public class MenuController {
 
     @FXML
     public void chooseButtonClicked(ActionEvent actionEvent) throws IOException {
+        assert trajectList != null;
         for (Traject traject: RouteList.trajects) {
             if (Objects.equals(traject.toString(), trajectList.getSelectionModel().getSelectedItem().toString())) {
                 OVApp.currentTraject = traject;
