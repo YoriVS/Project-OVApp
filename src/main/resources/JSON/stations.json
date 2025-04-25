@@ -1,0 +1,2366 @@
+[
+  {
+    "station_name": "'s-Hertogenbosch",
+    "uic_code": "8400319"
+  },
+  {
+    "station_name": "'s-Hertogenbosch Oost",
+    "uic_code": "8400320"
+  },
+  {
+    "station_name": "'t Harde",
+    "uic_code": "8400388"
+  },
+  {
+    "station_name": "Aachen Hbf",
+    "uic_code": "8015345"
+  },
+  {
+    "station_name": "Aachen West",
+    "uic_code": "8015199"
+  },
+  {
+    "station_name": "Aalten",
+    "uic_code": "8400045"
+  },
+  {
+    "station_name": "Abcoude",
+    "uic_code": "8400047"
+  },
+  {
+    "station_name": "Ahaus",
+    "uic_code": "8021123"
+  },
+  {
+    "station_name": "Aime-la-Plagne",
+    "uic_code": "8774176"
+  },
+  {
+    "station_name": "Airport Charles de Gaulle",
+    "uic_code": "8727149"
+  },
+  {
+    "station_name": "Aix-en-Provence TGV",
+    "uic_code": "8731901"
+  },
+  {
+    "station_name": "Akkrum",
+    "uic_code": "8400049"
+  },
+  {
+    "station_name": "Albertville",
+    "uic_code": "8774164"
+  },
+  {
+    "station_name": "Alkmaar",
+    "uic_code": "8400050"
+  },
+  {
+    "station_name": "Alkmaar Noord",
+    "uic_code": "8400052"
+  },
+  {
+    "station_name": "Almelo",
+    "uic_code": "8400051"
+  },
+  {
+    "station_name": "Almelo de Riet",
+    "uic_code": "8400520"
+  },
+  {
+    "station_name": "Almere Buiten",
+    "uic_code": "8400081"
+  },
+  {
+    "station_name": "Almere Centrum",
+    "uic_code": "8400080"
+  },
+  {
+    "station_name": "Almere Muziekwijk",
+    "uic_code": "8400082"
+  },
+  {
+    "station_name": "Almere Oostvaarders",
+    "uic_code": "8400226"
+  },
+  {
+    "station_name": "Almere Parkwijk",
+    "uic_code": "8400104"
+  },
+  {
+    "station_name": "Almere Poort",
+    "uic_code": "8400450"
+  },
+  {
+    "station_name": "Alphen a/d Rijn",
+    "uic_code": "8400053"
+  },
+  {
+    "station_name": "Altenberge",
+    "uic_code": "8021148"
+  },
+  {
+    "station_name": "Amersfoort Centraal",
+    "uic_code": "8400055"
+  },
+  {
+    "station_name": "Amersfoort Schothorst",
+    "uic_code": "8400054"
+  },
+  {
+    "station_name": "Amersfoort Vathorst",
+    "uic_code": "8400228"
+  },
+  {
+    "station_name": "Amsterdam Amstel",
+    "uic_code": "8400057"
+  },
+  {
+    "station_name": "Amsterdam Bijlmer ArenA",
+    "uic_code": "8400074"
+  },
+  {
+    "station_name": "Amsterdam Centraal",
+    "uic_code": "8400058"
+  },
+  {
+    "station_name": "Amsterdam Holendrecht",
+    "uic_code": "8400231"
+  },
+  {
+    "station_name": "Amsterdam Lelylaan",
+    "uic_code": "8400079"
+  },
+  {
+    "station_name": "Amsterdam Muiderpoort",
+    "uic_code": "8400060"
+  },
+  {
+    "station_name": "Amsterdam RAI",
+    "uic_code": "8400056"
+  },
+  {
+    "station_name": "Amsterdam Science Park",
+    "uic_code": "8400235"
+  },
+  {
+    "station_name": "Amsterdam Sloterdijk",
+    "uic_code": "8400059"
+  },
+  {
+    "station_name": "Amsterdam Zuid",
+    "uic_code": "8400061"
+  },
+  {
+    "station_name": "Amstetten N\u00d6",
+    "uic_code": "8101049"
+  },
+  {
+    "station_name": "Anna Paulowna",
+    "uic_code": "8400065"
+  },
+  {
+    "station_name": "Antwerpen-Berchem",
+    "uic_code": "8821121"
+  },
+  {
+    "station_name": "Antwerpen-Centraal",
+    "uic_code": "8821006"
+  },
+  {
+    "station_name": "Antwerpen-Luchtbal",
+    "uic_code": "8821063"
+  },
+  {
+    "station_name": "Antwerpen-Noorderdokken",
+    "uic_code": "8821089"
+  },
+  {
+    "station_name": "Antwerpen-Zuid",
+    "uic_code": "8821196"
+  },
+  {
+    "station_name": "Apeldoorn",
+    "uic_code": "8400066"
+  },
+  {
+    "station_name": "Apeldoorn De Maten",
+    "uic_code": "8400233"
+  },
+  {
+    "station_name": "Apeldoorn Osseveld",
+    "uic_code": "8400229"
+  },
+  {
+    "station_name": "Appingedam",
+    "uic_code": "8400067"
+  },
+  {
+    "station_name": "Arkel",
+    "uic_code": "8400068"
+  },
+  {
+    "station_name": "Arnemuiden",
+    "uic_code": "8400069"
+  },
+  {
+    "station_name": "Arnhem Centraal",
+    "uic_code": "8400071"
+  },
+  {
+    "station_name": "Arnhem Presikhaaf",
+    "uic_code": "8400075"
+  },
+  {
+    "station_name": "Arnhem Velperpoort",
+    "uic_code": "8400072"
+  },
+  {
+    "station_name": "Arnhem Zuid",
+    "uic_code": "8400227"
+  },
+  {
+    "station_name": "Assen",
+    "uic_code": "8400073"
+  },
+  {
+    "station_name": "Augsburg Hbf",
+    "uic_code": "8002140"
+  },
+  {
+    "station_name": "Avignon TGV",
+    "uic_code": "8731896"
+  },
+  {
+    "station_name": "Baarn",
+    "uic_code": "8400086"
+  },
+  {
+    "station_name": "Bad Bentheim",
+    "uic_code": "8021156"
+  },
+  {
+    "station_name": "Bad Nieuweschans",
+    "uic_code": "8400457"
+  },
+  {
+    "station_name": "Bad Oeynhausen",
+    "uic_code": "8013585"
+  },
+  {
+    "station_name": "Baden (CH)",
+    "uic_code": "8503504"
+  },
+  {
+    "station_name": "Baflo",
+    "uic_code": "8400089"
+  },
+  {
+    "station_name": "Barendrecht",
+    "uic_code": "8400090"
+  },
+  {
+    "station_name": "Barneveld Centrum",
+    "uic_code": "8400091"
+  },
+  {
+    "station_name": "Barneveld Noord",
+    "uic_code": "8400092"
+  },
+  {
+    "station_name": "Barneveld Zuid",
+    "uic_code": "8400115"
+  },
+  {
+    "station_name": "Basel Bad Bf",
+    "uic_code": "8014431"
+  },
+  {
+    "station_name": "Basel SBB",
+    "uic_code": "8500010"
+  },
+  {
+    "station_name": "Bedum",
+    "uic_code": "8400094"
+  },
+  {
+    "station_name": "Beek-Elsloo",
+    "uic_code": "8400096"
+  },
+  {
+    "station_name": "Beesd",
+    "uic_code": "8400097"
+  },
+  {
+    "station_name": "Beilen",
+    "uic_code": "8400100"
+  },
+  {
+    "station_name": "Belsele",
+    "uic_code": "8894433"
+  },
+  {
+    "station_name": "Bergen op Zoom",
+    "uic_code": "8400108"
+  },
+  {
+    "station_name": "Berlin Gesundbrunnen",
+    "uic_code": "8007799"
+  },
+  {
+    "station_name": "Berlin Hbf",
+    "uic_code": "8065969"
+  },
+  {
+    "station_name": "Berlin Ostbahnhof",
+    "uic_code": "8003004"
+  },
+  {
+    "station_name": "Berlin-Spandau",
+    "uic_code": "8003025"
+  },
+  {
+    "station_name": "Best",
+    "uic_code": "8400112"
+  },
+  {
+    "station_name": "Beveren",
+    "uic_code": "8894748"
+  },
+  {
+    "station_name": "Beverwijk",
+    "uic_code": "8400113"
+  },
+  {
+    "station_name": "Bielefeld Hbf",
+    "uic_code": "8013597"
+  },
+  {
+    "station_name": "Bilthoven",
+    "uic_code": "8400114"
+  },
+  {
+    "station_name": "Bilzen",
+    "uic_code": "8831138"
+  },
+  {
+    "station_name": "Blerick",
+    "uic_code": "8400117"
+  },
+  {
+    "station_name": "Bloemendaal",
+    "uic_code": "8400118"
+  },
+  {
+    "station_name": "Bodegraven",
+    "uic_code": "8400121"
+  },
+  {
+    "station_name": "Boisheim",
+    "uic_code": "8015128"
+  },
+  {
+    "station_name": "Bologna Centrale",
+    "uic_code": "8305043"
+  },
+  {
+    "station_name": "B\u00f6nen",
+    "uic_code": "8010385"
+  },
+  {
+    "station_name": "Bonn Hbf",
+    "uic_code": "8015485"
+  },
+  {
+    "station_name": "Bonn-Beuel",
+    "uic_code": "8015577"
+  },
+  {
+    "station_name": "Boom",
+    "uic_code": "8822814"
+  },
+  {
+    "station_name": "Bork (Westf)",
+    "uic_code": "8021111"
+  },
+  {
+    "station_name": "Borne",
+    "uic_code": "8400124"
+  },
+  {
+    "station_name": "Boskoop",
+    "uic_code": "8400125"
+  },
+  {
+    "station_name": "Boskoop Snijdelwijk",
+    "uic_code": "8400126"
+  },
+  {
+    "station_name": "Bourg-St-Maurice",
+    "uic_code": "8774179"
+  },
+  {
+    "station_name": "Boven-Hardinxveld",
+    "uic_code": "8400236"
+  },
+  {
+    "station_name": "Bovenkarspel Flora",
+    "uic_code": "8400230"
+  },
+  {
+    "station_name": "Bovenkarspel-Grootebroek",
+    "uic_code": "8400127"
+  },
+  {
+    "station_name": "Boxmeer",
+    "uic_code": "8400128"
+  },
+  {
+    "station_name": "Boxtel",
+    "uic_code": "8400129"
+  },
+  {
+    "station_name": "Breda",
+    "uic_code": "8400131"
+  },
+  {
+    "station_name": "Breda-Prinsenbeek",
+    "uic_code": "8400132"
+  },
+  {
+    "station_name": "Bressoux",
+    "uic_code": "8843901"
+  },
+  {
+    "station_name": "Breukelen",
+    "uic_code": "8400133"
+  },
+  {
+    "station_name": "Breyell",
+    "uic_code": "8015129"
+  },
+  {
+    "station_name": "Brummen",
+    "uic_code": "8400136"
+  },
+  {
+    "station_name": "Brussel-Centraal",
+    "uic_code": "8813003"
+  },
+  {
+    "station_name": "Brussel-Noord",
+    "uic_code": "8812005"
+  },
+  {
+    "station_name": "Brussel-Zuid Midi",
+    "uic_code": "8814001"
+  },
+  {
+    "station_name": "Brussels Airport-Zaventem",
+    "uic_code": "8819406"
+  },
+  {
+    "station_name": "Buitenpost",
+    "uic_code": "8400139"
+  },
+  {
+    "station_name": "Bunde",
+    "uic_code": "8400140"
+  },
+  {
+    "station_name": "B\u00fcnde (Westf)",
+    "uic_code": "8021173"
+  },
+  {
+    "station_name": "Bunnik",
+    "uic_code": "8400141"
+  },
+  {
+    "station_name": "Bussum Zuid",
+    "uic_code": "8400145"
+  },
+  {
+    "station_name": "Capelle Schollevaar",
+    "uic_code": "8400147"
+  },
+  {
+    "station_name": "Castricum",
+    "uic_code": "8400151"
+  },
+  {
+    "station_name": "Chamb\u00e9ry",
+    "uic_code": "8774100"
+  },
+  {
+    "station_name": "Chevremont",
+    "uic_code": "8400152"
+  },
+  {
+    "station_name": "Coesfeld (Westf)",
+    "uic_code": "8021119"
+  },
+  {
+    "station_name": "Coevorden",
+    "uic_code": "8400153"
+  },
+  {
+    "station_name": "Como S. Giovanni",
+    "uic_code": "8301307"
+  },
+  {
+    "station_name": "Cuijk",
+    "uic_code": "8400155"
+  },
+  {
+    "station_name": "Culemborg",
+    "uic_code": "8400154"
+  },
+  {
+    "station_name": "Daarlerveen",
+    "uic_code": "8400164"
+  },
+  {
+    "station_name": "Dalen",
+    "uic_code": "8400161"
+  },
+  {
+    "station_name": "Dalfsen",
+    "uic_code": "8400167"
+  },
+  {
+    "station_name": "De Vink",
+    "uic_code": "8400188"
+  },
+  {
+    "station_name": "De Westereen",
+    "uic_code": "8400745"
+  },
+  {
+    "station_name": "Deinum",
+    "uic_code": "8400168"
+  },
+  {
+    "station_name": "Delden",
+    "uic_code": "8400169"
+  },
+  {
+    "station_name": "Delft",
+    "uic_code": "8400170"
+  },
+  {
+    "station_name": "Delft Campus",
+    "uic_code": "8400166"
+  },
+  {
+    "station_name": "Delfzijl",
+    "uic_code": "8400171"
+  },
+  {
+    "station_name": "Delfzijl West",
+    "uic_code": "8400175"
+  },
+  {
+    "station_name": "Den Dolder",
+    "uic_code": "8400179"
+  },
+  {
+    "station_name": "Den Haag Centraal",
+    "uic_code": "8400282"
+  },
+  {
+    "station_name": "Den Haag HS",
+    "uic_code": "8400280"
+  },
+  {
+    "station_name": "Den Haag Laan v NOI",
+    "uic_code": "8400380"
+  },
+  {
+    "station_name": "Den Haag Mariahoeve",
+    "uic_code": "8400278"
+  },
+  {
+    "station_name": "Den Haag Moerwijk",
+    "uic_code": "8400279"
+  },
+  {
+    "station_name": "Den Haag Ypenburg",
+    "uic_code": "8400379"
+  },
+  {
+    "station_name": "Den Helder",
+    "uic_code": "8400311"
+  },
+  {
+    "station_name": "Den Helder Zuid",
+    "uic_code": "8400303"
+  },
+  {
+    "station_name": "Deurne",
+    "uic_code": "8400172"
+  },
+  {
+    "station_name": "Deventer",
+    "uic_code": "8400173"
+  },
+  {
+    "station_name": "Deventer Colmschate",
+    "uic_code": "8400185"
+  },
+  {
+    "station_name": "Didam",
+    "uic_code": "8400174"
+  },
+  {
+    "station_name": "Diemen",
+    "uic_code": "8400165"
+  },
+  {
+    "station_name": "Diemen Zuid",
+    "uic_code": "8400163"
+  },
+  {
+    "station_name": "Diepenbeek",
+    "uic_code": "8831112"
+  },
+  {
+    "station_name": "Dieren",
+    "uic_code": "8400176"
+  },
+  {
+    "station_name": "Doetinchem",
+    "uic_code": "8400177"
+  },
+  {
+    "station_name": "Doetinchem De Huet",
+    "uic_code": "8400184"
+  },
+  {
+    "station_name": "Dordrecht",
+    "uic_code": "8400180"
+  },
+  {
+    "station_name": "Dordrecht Stadspolders",
+    "uic_code": "8400186"
+  },
+  {
+    "station_name": "Dordrecht Zuid",
+    "uic_code": "8400181"
+  },
+  {
+    "station_name": "Dortmund Derne",
+    "uic_code": "8010101"
+  },
+  {
+    "station_name": "Dortmund Hbf",
+    "uic_code": "8010053"
+  },
+  {
+    "station_name": "Dortmund Kirchderne",
+    "uic_code": "8010102"
+  },
+  {
+    "station_name": "Driebergen-Zeist",
+    "uic_code": "8400182"
+  },
+  {
+    "station_name": "Driehuis",
+    "uic_code": "8400183"
+  },
+  {
+    "station_name": "Dronryp",
+    "uic_code": "8400192"
+  },
+  {
+    "station_name": "Dronten",
+    "uic_code": "8400198"
+  },
+  {
+    "station_name": "Duisburg Hbf",
+    "uic_code": "8010316"
+  },
+  {
+    "station_name": "Duiven",
+    "uic_code": "8400193"
+  },
+  {
+    "station_name": "Duivendrecht",
+    "uic_code": "8400194"
+  },
+  {
+    "station_name": "D\u00fclken",
+    "uic_code": "8015125"
+  },
+  {
+    "station_name": "D\u00fclmen",
+    "uic_code": "8021005"
+  },
+  {
+    "station_name": "D\u00fcsseldorf Flughafen",
+    "uic_code": "8039904"
+  },
+  {
+    "station_name": "D\u00fcsseldorf Hbf",
+    "uic_code": "8008094"
+  },
+  {
+    "station_name": "Echt",
+    "uic_code": "8400195"
+  },
+  {
+    "station_name": "Ede Centrum",
+    "uic_code": "8400201"
+  },
+  {
+    "station_name": "Ede-Wageningen",
+    "uic_code": "8400200"
+  },
+  {
+    "station_name": "Eemshaven",
+    "uic_code": "8400202"
+  },
+  {
+    "station_name": "Eijsden",
+    "uic_code": "8400219"
+  },
+  {
+    "station_name": "Eindhoven Centraal",
+    "uic_code": "8400206"
+  },
+  {
+    "station_name": "Eindhoven Strijp-S",
+    "uic_code": "8400196"
+  },
+  {
+    "station_name": "Ekeren",
+    "uic_code": "8821071"
+  },
+  {
+    "station_name": "Elst",
+    "uic_code": "8400207"
+  },
+  {
+    "station_name": "Emmen",
+    "uic_code": "8400208"
+  },
+  {
+    "station_name": "Emmen Zuid",
+    "uic_code": "8400407"
+  },
+  {
+    "station_name": "Emmerich",
+    "uic_code": "8010288"
+  },
+  {
+    "station_name": "Emmerich-Elten",
+    "uic_code": "8033415"
+  },
+  {
+    "station_name": "Enkhuizen",
+    "uic_code": "8400210"
+  },
+  {
+    "station_name": "Ennepetal",
+    "uic_code": "8008134"
+  },
+  {
+    "station_name": "Enschede",
+    "uic_code": "8400212"
+  },
+  {
+    "station_name": "Enschede De Eschmarke",
+    "uic_code": "8400217"
+  },
+  {
+    "station_name": "Enschede Kennispark",
+    "uic_code": "8400221"
+  },
+  {
+    "station_name": "Epe (Westf)",
+    "uic_code": "8021126"
+  },
+  {
+    "station_name": "Ermelo",
+    "uic_code": "8400216"
+  },
+  {
+    "station_name": "Essen",
+    "uic_code": "8821402"
+  },
+  {
+    "station_name": "Etten-Leur",
+    "uic_code": "8400218"
+  },
+  {
+    "station_name": "Eygelshoven",
+    "uic_code": "8400338"
+  },
+  {
+    "station_name": "Eygelshoven Markt",
+    "uic_code": "8400234"
+  },
+  {
+    "station_name": "Feanw\u00e2lden",
+    "uic_code": "8400638"
+  },
+  {
+    "station_name": "Firenze Campo di Marte",
+    "uic_code": "8306900"
+  },
+  {
+    "station_name": "Franeker",
+    "uic_code": "8400232"
+  },
+  {
+    "station_name": "Frankfurt (M) Hbf",
+    "uic_code": "8011068"
+  },
+  {
+    "station_name": "Frankfurt (Main) S\u00fcd",
+    "uic_code": "8011065"
+  },
+  {
+    "station_name": "Frankfurt Flughafen Fernb",
+    "uic_code": "8061676"
+  },
+  {
+    "station_name": "Freiburg (Breisgau) Hbf",
+    "uic_code": "8014350"
+  },
+  {
+    "station_name": "Gaanderen",
+    "uic_code": "8400241"
+  },
+  {
+    "station_name": "Geldermalsen",
+    "uic_code": "8400244"
+  },
+  {
+    "station_name": "Geldrop",
+    "uic_code": "8400245"
+  },
+  {
+    "station_name": "Geleen Oost",
+    "uic_code": "8400246"
+  },
+  {
+    "station_name": "Geleen-Lutterade",
+    "uic_code": "8400248"
+  },
+  {
+    "station_name": "Gent Sint Pieters",
+    "uic_code": "8892007"
+  },
+  {
+    "station_name": "Gilze-Rijen",
+    "uic_code": "8400251"
+  },
+  {
+    "station_name": "Glanerbrug",
+    "uic_code": "8400262"
+  },
+  {
+    "station_name": "Glons",
+    "uic_code": "8841731"
+  },
+  {
+    "station_name": "Goes",
+    "uic_code": "8400253"
+  },
+  {
+    "station_name": "Goor",
+    "uic_code": "8400254"
+  },
+  {
+    "station_name": "G\u00f6ppingen",
+    "uic_code": "8029066"
+  },
+  {
+    "station_name": "Gorinchem",
+    "uic_code": "8400256"
+  },
+  {
+    "station_name": "G\u00f6teborg Central",
+    "uic_code": "7401318"
+  },
+  {
+    "station_name": "Gouda",
+    "uic_code": "8400258"
+  },
+  {
+    "station_name": "Gouda Goverwelle",
+    "uic_code": "8400257"
+  },
+  {
+    "station_name": "Gramsbergen",
+    "uic_code": "8400259"
+  },
+  {
+    "station_name": "Grijpskerk",
+    "uic_code": "8400267"
+  },
+  {
+    "station_name": "Gronau (Westf.)",
+    "uic_code": "8021128"
+  },
+  {
+    "station_name": "Groningen",
+    "uic_code": "8400263"
+  },
+  {
+    "station_name": "Groningen Europapark",
+    "uic_code": "8400238"
+  },
+  {
+    "station_name": "Groningen Noord",
+    "uic_code": "8400264"
+  },
+  {
+    "station_name": "Grou-Jirnsum",
+    "uic_code": "8400266"
+  },
+  {
+    "station_name": "G\u00fcnzburg",
+    "uic_code": "8002084"
+  },
+  {
+    "station_name": "Haarlem",
+    "uic_code": "8400285"
+  },
+  {
+    "station_name": "Haarlem Spaarnwoude",
+    "uic_code": "8400270"
+  },
+  {
+    "station_name": "Hagen Hbf",
+    "uic_code": "8008073"
+  },
+  {
+    "station_name": "Halfweg-Zwanenburg",
+    "uic_code": "8400400"
+  },
+  {
+    "station_name": "Hamm (Westf.)",
+    "uic_code": "8010002"
+  },
+  {
+    "station_name": "Hannover Hbf",
+    "uic_code": "8013552"
+  },
+  {
+    "station_name": "Hardenberg",
+    "uic_code": "8400293"
+  },
+  {
+    "station_name": "Harderwijk",
+    "uic_code": "8400294"
+  },
+  {
+    "station_name": "Hardinxveld Blauwe Zoom",
+    "uic_code": "8400438"
+  },
+  {
+    "station_name": "Hardinxveld-Giessendam",
+    "uic_code": "8400295"
+  },
+  {
+    "station_name": "Haren",
+    "uic_code": "8400297"
+  },
+  {
+    "station_name": "Harlingen",
+    "uic_code": "8400296"
+  },
+  {
+    "station_name": "Harlingen Haven",
+    "uic_code": "8400298"
+  },
+  {
+    "station_name": "Hasselt",
+    "uic_code": "8831005"
+  },
+  {
+    "station_name": "Heemskerk",
+    "uic_code": "8400317"
+  },
+  {
+    "station_name": "Heemstede-Aerdenhout",
+    "uic_code": "8400302"
+  },
+  {
+    "station_name": "Heerenveen",
+    "uic_code": "8400305"
+  },
+  {
+    "station_name": "Heerenveen IJsstadion",
+    "uic_code": "8400301"
+  },
+  {
+    "station_name": "Heerhugowaard",
+    "uic_code": "8400306"
+  },
+  {
+    "station_name": "Heerlen",
+    "uic_code": "8400307"
+  },
+  {
+    "station_name": "Heerlen Woonboulevard",
+    "uic_code": "8400404"
+  },
+  {
+    "station_name": "Heeze",
+    "uic_code": "8400308"
+  },
+  {
+    "station_name": "Heide (B)",
+    "uic_code": "8821519"
+  },
+  {
+    "station_name": "Heiloo",
+    "uic_code": "8400309"
+  },
+  {
+    "station_name": "Heino",
+    "uic_code": "8400310"
+  },
+  {
+    "station_name": "Helmond",
+    "uic_code": "8400313"
+  },
+  {
+    "station_name": "Helmond 't Hout",
+    "uic_code": "8400300"
+  },
+  {
+    "station_name": "Helmond Brandevoort",
+    "uic_code": "8400242"
+  },
+  {
+    "station_name": "Helmond Brouwhuis",
+    "uic_code": "8400299"
+  },
+  {
+    "station_name": "Hemiksem",
+    "uic_code": "8824224"
+  },
+  {
+    "station_name": "Hemmen-Dodewaard",
+    "uic_code": "8400315"
+  },
+  {
+    "station_name": "Hengelo",
+    "uic_code": "8400316"
+  },
+  {
+    "station_name": "Hengelo Gezondheidspark",
+    "uic_code": "8400433"
+  },
+  {
+    "station_name": "Hengelo Oost",
+    "uic_code": "8400312"
+  },
+  {
+    "station_name": "Herstal",
+    "uic_code": "8841608"
+  },
+  {
+    "station_name": "Herzogenrath",
+    "uic_code": "8015190"
+  },
+  {
+    "station_name": "Hillegom",
+    "uic_code": "8400329"
+  },
+  {
+    "station_name": "Hilversum",
+    "uic_code": "8400322"
+  },
+  {
+    "station_name": "Hilversum Media Park",
+    "uic_code": "8400324"
+  },
+  {
+    "station_name": "Hilversum Sportpark",
+    "uic_code": "8400570"
+  },
+  {
+    "station_name": "Hindeloopen",
+    "uic_code": "8400323"
+  },
+  {
+    "station_name": "Hoboken-Polder",
+    "uic_code": "8824158"
+  },
+  {
+    "station_name": "Hoensbroek",
+    "uic_code": "8400326"
+  },
+  {
+    "station_name": "Hoevelaken",
+    "uic_code": "8400490"
+  },
+  {
+    "station_name": "Hollandsche Rading",
+    "uic_code": "8400327"
+  },
+  {
+    "station_name": "Holten",
+    "uic_code": "8400328"
+  },
+  {
+    "station_name": "Holzwickede",
+    "uic_code": "8010384"
+  },
+  {
+    "station_name": "Hoofddorp",
+    "uic_code": "8400332"
+  },
+  {
+    "station_name": "Hoogeveen",
+    "uic_code": "8400330"
+  },
+  {
+    "station_name": "Hoogezand-Sappemeer",
+    "uic_code": "8400331"
+  },
+  {
+    "station_name": "Hoogkarspel",
+    "uic_code": "8400334"
+  },
+  {
+    "station_name": "Hoorn",
+    "uic_code": "8400337"
+  },
+  {
+    "station_name": "Hoorn Kersenboogerd",
+    "uic_code": "8400336"
+  },
+  {
+    "station_name": "Hopfgarten",
+    "uic_code": "8101168"
+  },
+  {
+    "station_name": "Horst-Sevenum",
+    "uic_code": "8400339"
+  },
+  {
+    "station_name": "Houten",
+    "uic_code": "8400340"
+  },
+  {
+    "station_name": "Houten Castellum",
+    "uic_code": "8400335"
+  },
+  {
+    "station_name": "Houthem-St. Gerlach",
+    "uic_code": "8400341"
+  },
+  {
+    "station_name": "Hurdegaryp",
+    "uic_code": "8400292"
+  },
+  {
+    "station_name": "IJlst",
+    "uic_code": "8400722"
+  },
+  {
+    "station_name": "Innsbruck Hbf",
+    "uic_code": "8101187"
+  },
+  {
+    "station_name": "Jenbach",
+    "uic_code": "8101176"
+  },
+  {
+    "station_name": "Kaldenkirchen",
+    "uic_code": "8015130"
+  },
+  {
+    "station_name": "Kalmthout",
+    "uic_code": "8821444"
+  },
+  {
+    "station_name": "Kampen",
+    "uic_code": "8400353"
+  },
+  {
+    "station_name": "Kampen Zuid",
+    "uic_code": "8400360"
+  },
+  {
+    "station_name": "Kapelle-Biezelinge",
+    "uic_code": "8400354"
+  },
+  {
+    "station_name": "Kapellen",
+    "uic_code": "8821535"
+  },
+  {
+    "station_name": "Karlsruhe Hbf",
+    "uic_code": "8014228"
+  },
+  {
+    "station_name": "Kerkrade Centrum",
+    "uic_code": "8400355"
+  },
+  {
+    "station_name": "Kesteren",
+    "uic_code": "8400359"
+  },
+  {
+    "station_name": "Kijkuit",
+    "uic_code": "8821451"
+  },
+  {
+    "station_name": "Klarenbeek",
+    "uic_code": "8400361"
+  },
+  {
+    "station_name": "Klimmen-Ransdaal",
+    "uic_code": "8400362"
+  },
+  {
+    "station_name": "Koblenz Hbf",
+    "uic_code": "8019023"
+  },
+  {
+    "station_name": "K\u00f6ln Hbf",
+    "uic_code": "8015458"
+  },
+  {
+    "station_name": "K\u00f6ln Messe/Deutz",
+    "uic_code": "8015561"
+  },
+  {
+    "station_name": "K\u00f6ln West",
+    "uic_code": "8015468"
+  },
+  {
+    "station_name": "K\u00f6ln-Ehrenfeld",
+    "uic_code": "8015321"
+  },
+  {
+    "station_name": "K\u00f6ln-M\u00fclheim",
+    "uic_code": "8015541"
+  },
+  {
+    "station_name": "Koog aan de Zaan",
+    "uic_code": "8400363"
+  },
+  {
+    "station_name": "Koudum-Molkwerum",
+    "uic_code": "8400366"
+  },
+  {
+    "station_name": "K\u00f8benhavns Lufthavn St",
+    "uic_code": "8600858"
+  },
+  {
+    "station_name": "Krabbendijke",
+    "uic_code": "8400367"
+  },
+  {
+    "station_name": "Krommenie-Assendelft",
+    "uic_code": "8400368"
+  },
+  {
+    "station_name": "Kropswolde",
+    "uic_code": "8400369"
+  },
+  {
+    "station_name": "Kruiningen-Yerseke",
+    "uic_code": "8400370"
+  },
+  {
+    "station_name": "Kufstein",
+    "uic_code": "8102184"
+  },
+  {
+    "station_name": "Lage Zwaluwe",
+    "uic_code": "8400382"
+  },
+  {
+    "station_name": "Landgraaf",
+    "uic_code": "8400548"
+  },
+  {
+    "station_name": "Landry",
+    "uic_code": "8774177"
+  },
+  {
+    "station_name": "Lansingerland-Zoetermeer",
+    "uic_code": "8400135"
+  },
+  {
+    "station_name": "Leer (Ostfriesl)",
+    "uic_code": "8021091"
+  },
+  {
+    "station_name": "Leerdam",
+    "uic_code": "8400386"
+  },
+  {
+    "station_name": "Leeuwarden",
+    "uic_code": "8400387"
+  },
+  {
+    "station_name": "Leeuwarden Camminghaburen",
+    "uic_code": "8400389"
+  },
+  {
+    "station_name": "Legden",
+    "uic_code": "8021122"
+  },
+  {
+    "station_name": "Leiden Centraal",
+    "uic_code": "8400390"
+  },
+  {
+    "station_name": "Leiden Lammenschans",
+    "uic_code": "8400384"
+  },
+  {
+    "station_name": "Lelystad Centrum",
+    "uic_code": "8400394"
+  },
+  {
+    "station_name": "Lette (Kr Coesfeld)",
+    "uic_code": "8021117"
+  },
+  {
+    "station_name": "Leuven",
+    "uic_code": "8833001"
+  },
+  {
+    "station_name": "Lichtenvoorde-Groenlo",
+    "uic_code": "8400395"
+  },
+  {
+    "station_name": "Li\u00e8ge-Carr\u00e9",
+    "uic_code": "8841558"
+  },
+  {
+    "station_name": "Li\u00e8ge-Guillemins",
+    "uic_code": "8841004"
+  },
+  {
+    "station_name": "Li\u00e8ge-Saint-Lambert",
+    "uic_code": "8841525"
+  },
+  {
+    "station_name": "Liers",
+    "uic_code": "8841673"
+  },
+  {
+    "station_name": "Lille Europe",
+    "uic_code": "8722326"
+  },
+  {
+    "station_name": "Limburg S\u00fcd",
+    "uic_code": "8032572"
+  },
+  {
+    "station_name": "Linz Hbf",
+    "uic_code": "8101073"
+  },
+  {
+    "station_name": "Lochem",
+    "uic_code": "8400399"
+  },
+  {
+    "station_name": "Lokeren",
+    "uic_code": "8894201"
+  },
+  {
+    "station_name": "London St. Pancras Int.",
+    "uic_code": "7015400"
+  },
+  {
+    "station_name": "Loppersum",
+    "uic_code": "8400403"
+  },
+  {
+    "station_name": "L\u00fcdinghausen",
+    "uic_code": "8021113"
+  },
+  {
+    "station_name": "L\u00fcnen Hbf",
+    "uic_code": "8010098"
+  },
+  {
+    "station_name": "Lunteren",
+    "uic_code": "8400405"
+  },
+  {
+    "station_name": "Maarheeze",
+    "uic_code": "8400432"
+  },
+  {
+    "station_name": "Maarn",
+    "uic_code": "8400417"
+  },
+  {
+    "station_name": "Maarssen",
+    "uic_code": "8400419"
+  },
+  {
+    "station_name": "Maastricht",
+    "uic_code": "8400424"
+  },
+  {
+    "station_name": "Maastricht Noord",
+    "uic_code": "8400449"
+  },
+  {
+    "station_name": "Maastricht Randwyck",
+    "uic_code": "8400426"
+  },
+  {
+    "station_name": "Mainz Hbf",
+    "uic_code": "8019051"
+  },
+  {
+    "station_name": "Malm\u00f6 Central",
+    "uic_code": "7402611"
+  },
+  {
+    "station_name": "Mannheim Hbf",
+    "uic_code": "8014008"
+  },
+  {
+    "station_name": "Mantgum",
+    "uic_code": "8400427"
+  },
+  {
+    "station_name": "Mari\u00ebnberg",
+    "uic_code": "8400428"
+  },
+  {
+    "station_name": "Marne-la-Vall\u00e9e-Chessy",
+    "uic_code": "8738264"
+  },
+  {
+    "station_name": "Marseille-St-Charles",
+    "uic_code": "8775100"
+  },
+  {
+    "station_name": "Martenshoek",
+    "uic_code": "8400430"
+  },
+  {
+    "station_name": "Mechelen",
+    "uic_code": "8822004"
+  },
+  {
+    "station_name": "Meerssen",
+    "uic_code": "8400434"
+  },
+  {
+    "station_name": "Melsele",
+    "uic_code": "8894755"
+  },
+  {
+    "station_name": "Meppel",
+    "uic_code": "8400435"
+  },
+  {
+    "station_name": "Metelen Land",
+    "uic_code": "8021151"
+  },
+  {
+    "station_name": "Middelburg",
+    "uic_code": "8400436"
+  },
+  {
+    "station_name": "Milano Porta Garibaldi",
+    "uic_code": "8301645"
+  },
+  {
+    "station_name": "Milmort",
+    "uic_code": "8841665"
+  },
+  {
+    "station_name": "Minden (Westf)",
+    "uic_code": "8013578"
+  },
+  {
+    "station_name": "M\u00f6nchengladbach Hbf",
+    "uic_code": "8015165"
+  },
+  {
+    "station_name": "Mook-Molenhoek",
+    "uic_code": "8400446"
+  },
+  {
+    "station_name": "Moutiers-Salins-Brides",
+    "uic_code": "8774172"
+  },
+  {
+    "station_name": "M\u00fcnchen Hbf",
+    "uic_code": "8020347"
+  },
+  {
+    "station_name": "M\u00fcnchen Ost",
+    "uic_code": "8020234"
+  },
+  {
+    "station_name": "M\u00fcnster (W) Zentrum Nord",
+    "uic_code": "8023783"
+  },
+  {
+    "station_name": "M\u00fcnster (Westf) Hbf",
+    "uic_code": "8021011"
+  },
+  {
+    "station_name": "M\u00fcnster-H\u00e4ger",
+    "uic_code": "8021147"
+  },
+  {
+    "station_name": "Naarden-Bussum",
+    "uic_code": "8400452"
+  },
+  {
+    "station_name": "Neuss Hbf",
+    "uic_code": "8015149"
+  },
+  {
+    "station_name": "Niel",
+    "uic_code": "8824240"
+  },
+  {
+    "station_name": "Nieuw Amsterdam",
+    "uic_code": "8400454"
+  },
+  {
+    "station_name": "Nieuw Vennep",
+    "uic_code": "8400460"
+  },
+  {
+    "station_name": "Nieuwerkerk a/d IJssel",
+    "uic_code": "8400455"
+  },
+  {
+    "station_name": "Nieuwkerken-Waas",
+    "uic_code": "8894714"
+  },
+  {
+    "station_name": "Nijkerk",
+    "uic_code": "8400469"
+  },
+  {
+    "station_name": "Nijmegen",
+    "uic_code": "8400470"
+  },
+  {
+    "station_name": "Nijmegen Dukenburg",
+    "uic_code": "8400475"
+  },
+  {
+    "station_name": "Nijmegen Goffert",
+    "uic_code": "8400477"
+  },
+  {
+    "station_name": "Nijmegen Heyendaal",
+    "uic_code": "8400468"
+  },
+  {
+    "station_name": "Nijmegen Lent",
+    "uic_code": "8400451"
+  },
+  {
+    "station_name": "Nijverdal",
+    "uic_code": "8400472"
+  },
+  {
+    "station_name": "Noorderkempen",
+    "uic_code": "8821105"
+  },
+  {
+    "station_name": "Nordwalde",
+    "uic_code": "8021149"
+  },
+  {
+    "station_name": "Nunspeet",
+    "uic_code": "8400466"
+  },
+  {
+    "station_name": "N\u00fcrnberg Hbf",
+    "uic_code": "8022193"
+  },
+  {
+    "station_name": "Nuth",
+    "uic_code": "8400467"
+  },
+  {
+    "station_name": "Obdam",
+    "uic_code": "8400480"
+  },
+  {
+    "station_name": "Oberhausen Hbf",
+    "uic_code": "8010263"
+  },
+  {
+    "station_name": "Oberhausen-Sterkrade",
+    "uic_code": "8010266"
+  },
+  {
+    "station_name": "Ochtrup",
+    "uic_code": "8021152"
+  },
+  {
+    "station_name": "Offenburg",
+    "uic_code": "8014309"
+  },
+  {
+    "station_name": "Oisterwijk",
+    "uic_code": "8400482"
+  },
+  {
+    "station_name": "Oldenzaal",
+    "uic_code": "8400483"
+  },
+  {
+    "station_name": "Olst",
+    "uic_code": "8400486"
+  },
+  {
+    "station_name": "Ommen",
+    "uic_code": "8400487"
+  },
+  {
+    "station_name": "Oosterbeek",
+    "uic_code": "8400489"
+  },
+  {
+    "station_name": "Opheusden",
+    "uic_code": "8400494"
+  },
+  {
+    "station_name": "Osnabr\u00fcck Hbf",
+    "uic_code": "8021025"
+  },
+  {
+    "station_name": "Oss",
+    "uic_code": "8400495"
+  },
+  {
+    "station_name": "Oss West",
+    "uic_code": "8400496"
+  },
+  {
+    "station_name": "Oudenbosch",
+    "uic_code": "8400498"
+  },
+  {
+    "station_name": "Overveen",
+    "uic_code": "8400501"
+  },
+  {
+    "station_name": "Paris-Nord",
+    "uic_code": "8727100"
+  },
+  {
+    "station_name": "Passau Hbf",
+    "uic_code": "8026506"
+  },
+  {
+    "station_name": "Plochingen",
+    "uic_code": "8029060"
+  },
+  {
+    "station_name": "Praest",
+    "uic_code": "8010286"
+  },
+  {
+    "station_name": "Preussen",
+    "uic_code": "8010100"
+  },
+  {
+    "station_name": "Purmerend",
+    "uic_code": "8400508"
+  },
+  {
+    "station_name": "Purmerend Overwhere",
+    "uic_code": "8400506"
+  },
+  {
+    "station_name": "Purmerend Weidevenne",
+    "uic_code": "8400499"
+  },
+  {
+    "station_name": "Putten",
+    "uic_code": "8400509"
+  },
+  {
+    "station_name": "Puurs",
+    "uic_code": "8822715"
+  },
+  {
+    "station_name": "Raalte",
+    "uic_code": "8400513"
+  },
+  {
+    "station_name": "Ravenstein",
+    "uic_code": "8400515"
+  },
+  {
+    "station_name": "Regensburg Hbf",
+    "uic_code": "8026294"
+  },
+  {
+    "station_name": "Reuver",
+    "uic_code": "8400518"
+  },
+  {
+    "station_name": "Rheden",
+    "uic_code": "8400519"
+  },
+  {
+    "station_name": "Rheine",
+    "uic_code": "8021067"
+  },
+  {
+    "station_name": "Rhenen",
+    "uic_code": "8400517"
+  },
+  {
+    "station_name": "Rijssen",
+    "uic_code": "8400538"
+  },
+  {
+    "station_name": "Rijswijk",
+    "uic_code": "8400505"
+  },
+  {
+    "station_name": "Rilland-Bath",
+    "uic_code": "8400521"
+  },
+  {
+    "station_name": "Roermond",
+    "uic_code": "8400523"
+  },
+  {
+    "station_name": "Roodeschool",
+    "uic_code": "8400525"
+  },
+  {
+    "station_name": "Roosendaal",
+    "uic_code": "8400526"
+  },
+  {
+    "station_name": "Rosendahl-Holtwick",
+    "uic_code": "8021121"
+  },
+  {
+    "station_name": "Rosenheim",
+    "uic_code": "8020174"
+  },
+  {
+    "station_name": "Rosmalen",
+    "uic_code": "8400524"
+  },
+  {
+    "station_name": "Rotterdam Alexander",
+    "uic_code": "8400507"
+  },
+  {
+    "station_name": "Rotterdam Blaak",
+    "uic_code": "8400529"
+  },
+  {
+    "station_name": "Rotterdam Centraal",
+    "uic_code": "8400530"
+  },
+  {
+    "station_name": "Rotterdam Lombardijen",
+    "uic_code": "8400542"
+  },
+  {
+    "station_name": "Rotterdam Noord",
+    "uic_code": "8400531"
+  },
+  {
+    "station_name": "Rotterdam Stadion",
+    "uic_code": "8400534"
+  },
+  {
+    "station_name": "Rotterdam Zuid",
+    "uic_code": "8400533"
+  },
+  {
+    "station_name": "Ruisbroek-Sauvegarde",
+    "uic_code": "8822848"
+  },
+  {
+    "station_name": "Ruurlo",
+    "uic_code": "8400537"
+  },
+  {
+    "station_name": "Salzburg Hbf",
+    "uic_code": "8101114"
+  },
+  {
+    "station_name": "Santpoort Noord",
+    "uic_code": "8400543"
+  },
+  {
+    "station_name": "Santpoort Zuid",
+    "uic_code": "8400544"
+  },
+  {
+    "station_name": "Sassenheim",
+    "uic_code": "8400603"
+  },
+  {
+    "station_name": "Sauwerd",
+    "uic_code": "8400547"
+  },
+  {
+    "station_name": "Schagen",
+    "uic_code": "8400549"
+  },
+  {
+    "station_name": "Scheemda",
+    "uic_code": "8400551"
+  },
+  {
+    "station_name": "Schelle",
+    "uic_code": "8824232"
+  },
+  {
+    "station_name": "Schiedam Centrum",
+    "uic_code": "8400553"
+  },
+  {
+    "station_name": "Schin op Geul",
+    "uic_code": "8400555"
+  },
+  {
+    "station_name": "Schinnen",
+    "uic_code": "8400554"
+  },
+  {
+    "station_name": "Schiphol Airport",
+    "uic_code": "8400561"
+  },
+  {
+    "station_name": "Schwelm",
+    "uic_code": "8008136"
+  },
+  {
+    "station_name": "Schwerte (Ruhr)",
+    "uic_code": "8008016"
+  },
+  {
+    "station_name": "Selm",
+    "uic_code": "8021112"
+  },
+  {
+    "station_name": "Selm-Beifang",
+    "uic_code": "8021120"
+  },
+  {
+    "station_name": "Siegburg/Bonn",
+    "uic_code": "8015588"
+  },
+  {
+    "station_name": "Sinaai",
+    "uic_code": "8894425"
+  },
+  {
+    "station_name": "Sint-Mariaburg",
+    "uic_code": "8821543"
+  },
+  {
+    "station_name": "Sint-Niklaas",
+    "uic_code": "8894508"
+  },
+  {
+    "station_name": "Sittard",
+    "uic_code": "8400564"
+  },
+  {
+    "station_name": "Sliedrecht",
+    "uic_code": "8400565"
+  },
+  {
+    "station_name": "Sliedrecht Baanhoek",
+    "uic_code": "8400497"
+  },
+  {
+    "station_name": "Sneek",
+    "uic_code": "8400566"
+  },
+  {
+    "station_name": "Sneek Noord",
+    "uic_code": "8400574"
+  },
+  {
+    "station_name": "Soest",
+    "uic_code": "8400567"
+  },
+  {
+    "station_name": "Soest Zuid",
+    "uic_code": "8400571"
+  },
+  {
+    "station_name": "Soestdijk",
+    "uic_code": "8400569"
+  },
+  {
+    "station_name": "Spaubeek",
+    "uic_code": "8400572"
+  },
+  {
+    "station_name": "St.P\u00f6lten Hbf",
+    "uic_code": "8101032"
+  },
+  {
+    "station_name": "Stavoren",
+    "uic_code": "8400575"
+  },
+  {
+    "station_name": "Stedum",
+    "uic_code": "8400576"
+  },
+  {
+    "station_name": "Steenwijk",
+    "uic_code": "8400578"
+  },
+  {
+    "station_name": "Steinfurt-Borghorst",
+    "uic_code": "8021150"
+  },
+  {
+    "station_name": "Steinfurt-Burgsteinfurt",
+    "uic_code": "8021143"
+  },
+  {
+    "station_name": "Steinfurt-Grottenkamp",
+    "uic_code": "8071069"
+  },
+  {
+    "station_name": "Stendal",
+    "uic_code": "8024062"
+  },
+  {
+    "station_name": "Stuttgart Hbf",
+    "uic_code": "8029034"
+  },
+  {
+    "station_name": "Susteren",
+    "uic_code": "8400582"
+  },
+  {
+    "station_name": "Swalmen",
+    "uic_code": "8400583"
+  },
+  {
+    "station_name": "Tegelen",
+    "uic_code": "8400591"
+  },
+  {
+    "station_name": "Terborg",
+    "uic_code": "8400592"
+  },
+  {
+    "station_name": "Tiel",
+    "uic_code": "8400596"
+  },
+  {
+    "station_name": "Tiel Passewaaij",
+    "uic_code": "8400600"
+  },
+  {
+    "station_name": "Tilburg",
+    "uic_code": "8400597"
+  },
+  {
+    "station_name": "Tilburg Reeshof",
+    "uic_code": "8400598"
+  },
+  {
+    "station_name": "Tilburg Universiteit",
+    "uic_code": "8400594"
+  },
+  {
+    "station_name": "Tongeren",
+    "uic_code": "8831310"
+  },
+  {
+    "station_name": "Troisdorf",
+    "uic_code": "8015572"
+  },
+  {
+    "station_name": "Twello",
+    "uic_code": "8400599"
+  },
+  {
+    "station_name": "Uitgeest",
+    "uic_code": "8400615"
+  },
+  {
+    "station_name": "Uithuizen",
+    "uic_code": "8400617"
+  },
+  {
+    "station_name": "Uithuizermeeden",
+    "uic_code": "8400618"
+  },
+  {
+    "station_name": "Ulm Hbf",
+    "uic_code": "8029103"
+  },
+  {
+    "station_name": "Unna",
+    "uic_code": "8010382"
+  },
+  {
+    "station_name": "Usquert",
+    "uic_code": "8400619"
+  },
+  {
+    "station_name": "Utrecht Centraal",
+    "uic_code": "8400621"
+  },
+  {
+    "station_name": "Utrecht Leidsche Rijn",
+    "uic_code": "8400607"
+  },
+  {
+    "station_name": "Utrecht Lunetten",
+    "uic_code": "8400623"
+  },
+  {
+    "station_name": "Utrecht Maliebaan",
+    "uic_code": "8400624"
+  },
+  {
+    "station_name": "Utrecht Overvecht",
+    "uic_code": "8400620"
+  },
+  {
+    "station_name": "Utrecht Terwijde",
+    "uic_code": "8400614"
+  },
+  {
+    "station_name": "Utrecht Vaartsche Rijn",
+    "uic_code": "8400606"
+  },
+  {
+    "station_name": "Utrecht Zuilen",
+    "uic_code": "8400613"
+  },
+  {
+    "station_name": "Valence TGV",
+    "uic_code": "8776302"
+  },
+  {
+    "station_name": "Valkenburg",
+    "uic_code": "8400632"
+  },
+  {
+    "station_name": "Varsseveld",
+    "uic_code": "8400635"
+  },
+  {
+    "station_name": "Veendam",
+    "uic_code": "8400636"
+  },
+  {
+    "station_name": "Veenendaal Centrum",
+    "uic_code": "8400627"
+  },
+  {
+    "station_name": "Veenendaal West",
+    "uic_code": "8400628"
+  },
+  {
+    "station_name": "Veenendaal-De Klomp",
+    "uic_code": "8400637"
+  },
+  {
+    "station_name": "Velp",
+    "uic_code": "8400640"
+  },
+  {
+    "station_name": "Venezia Santa Lucia",
+    "uic_code": "8302593"
+  },
+  {
+    "station_name": "Venlo",
+    "uic_code": "8400644"
+  },
+  {
+    "station_name": "Venray",
+    "uic_code": "8400646"
+  },
+  {
+    "station_name": "Vierlingsbeek",
+    "uic_code": "8400647"
+  },
+  {
+    "station_name": "Viersen",
+    "uic_code": "8015122"
+  },
+  {
+    "station_name": "Vis\u00e9",
+    "uic_code": "8846201"
+  },
+  {
+    "station_name": "Vleuten",
+    "uic_code": "8400651"
+  },
+  {
+    "station_name": "Vlissingen",
+    "uic_code": "8400652"
+  },
+  {
+    "station_name": "Vlissingen Souburg",
+    "uic_code": "8400653"
+  },
+  {
+    "station_name": "Voerendaal",
+    "uic_code": "8400656"
+  },
+  {
+    "station_name": "Voorburg",
+    "uic_code": "8400658"
+  },
+  {
+    "station_name": "Voorhout",
+    "uic_code": "8400655"
+  },
+  {
+    "station_name": "Voorschoten",
+    "uic_code": "8400659"
+  },
+  {
+    "station_name": "Voorst-Empe",
+    "uic_code": "8400668"
+  },
+  {
+    "station_name": "Vorden",
+    "uic_code": "8400661"
+  },
+  {
+    "station_name": "Vriezenveen",
+    "uic_code": "8400664"
+  },
+  {
+    "station_name": "Vroomshoop",
+    "uic_code": "8400666"
+  },
+  {
+    "station_name": "Vught",
+    "uic_code": "8400667"
+  },
+  {
+    "station_name": "Waddinxveen",
+    "uic_code": "8400675"
+  },
+  {
+    "station_name": "Waddinxveen Noord",
+    "uic_code": "8400674"
+  },
+  {
+    "station_name": "Waddinxveen Triangel",
+    "uic_code": "8400677"
+  },
+  {
+    "station_name": "Warffum",
+    "uic_code": "8400679"
+  },
+  {
+    "station_name": "Weener",
+    "uic_code": "8021239"
+  },
+  {
+    "station_name": "Weert",
+    "uic_code": "8400684"
+  },
+  {
+    "station_name": "Weesp",
+    "uic_code": "8400685"
+  },
+  {
+    "station_name": "Wehl",
+    "uic_code": "8400686"
+  },
+  {
+    "station_name": "Wels Hbf",
+    "uic_code": "8101081"
+  },
+  {
+    "station_name": "Wesel",
+    "uic_code": "8010275"
+  },
+  {
+    "station_name": "Westervoort",
+    "uic_code": "8400688"
+  },
+  {
+    "station_name": "Wezep",
+    "uic_code": "8400690"
+  },
+  {
+    "station_name": "Wien Hbf",
+    "uic_code": "8101003"
+  },
+  {
+    "station_name": "Wien H\u00fctteldorf",
+    "uic_code": "8101008"
+  },
+  {
+    "station_name": "Wierden",
+    "uic_code": "8400691"
+  },
+  {
+    "station_name": "Wijchen",
+    "uic_code": "8400710"
+  },
+  {
+    "station_name": "Wijhe",
+    "uic_code": "8400711"
+  },
+  {
+    "station_name": "Wildert",
+    "uic_code": "8821436"
+  },
+  {
+    "station_name": "Winschoten",
+    "uic_code": "8400696"
+  },
+  {
+    "station_name": "Winsum",
+    "uic_code": "8400697"
+  },
+  {
+    "station_name": "Winterswijk",
+    "uic_code": "8400698"
+  },
+  {
+    "station_name": "Winterswijk West",
+    "uic_code": "8400700"
+  },
+  {
+    "station_name": "Woerden",
+    "uic_code": "8400702"
+  },
+  {
+    "station_name": "Wolfheze",
+    "uic_code": "8400704"
+  },
+  {
+    "station_name": "Wolfsburg Hbf",
+    "uic_code": "8013017"
+  },
+  {
+    "station_name": "Wolvega",
+    "uic_code": "8400705"
+  },
+  {
+    "station_name": "W\u00f6rgl",
+    "uic_code": "8101170"
+  },
+  {
+    "station_name": "Workum",
+    "uic_code": "8400706"
+  },
+  {
+    "station_name": "Wormerveer",
+    "uic_code": "8400707"
+  },
+  {
+    "station_name": "Wuppertal Hbf",
+    "uic_code": "8008143"
+  },
+  {
+    "station_name": "Wuppertal-Barmen",
+    "uic_code": "8008142"
+  },
+  {
+    "station_name": "Wuppertal-Oberbarmen",
+    "uic_code": "8008138"
+  },
+  {
+    "station_name": "Wuppertal-Vohwinkel",
+    "uic_code": "8008082"
+  },
+  {
+    "station_name": "W\u00fcrzburg Hbf",
+    "uic_code": "8022534"
+  },
+  {
+    "station_name": "Zaandam",
+    "uic_code": "8400731"
+  },
+  {
+    "station_name": "Zaandam Kogerveld",
+    "uic_code": "8400728"
+  },
+  {
+    "station_name": "Zaandijk Zaanse Schans",
+    "uic_code": "8400364"
+  },
+  {
+    "station_name": "Zaltbommel",
+    "uic_code": "8400732"
+  },
+  {
+    "station_name": "Zandvoort aan Zee",
+    "uic_code": "8400733"
+  },
+  {
+    "station_name": "Zetten-Andelst",
+    "uic_code": "8400734"
+  },
+  {
+    "station_name": "Zevenaar",
+    "uic_code": "8400735"
+  },
+  {
+    "station_name": "Zevenbergen",
+    "uic_code": "8400737"
+  },
+  {
+    "station_name": "Zoetermeer",
+    "uic_code": "8400741"
+  },
+  {
+    "station_name": "Zoetermeer Oost",
+    "uic_code": "8400740"
+  },
+  {
+    "station_name": "Zuidbroek",
+    "uic_code": "8400742"
+  },
+  {
+    "station_name": "Zuidhorn",
+    "uic_code": "8400743"
+  },
+  {
+    "station_name": "Z\u00fcrich HB",
+    "uic_code": "8503000"
+  },
+  {
+    "station_name": "Zutphen",
+    "uic_code": "8400744"
+  },
+  {
+    "station_name": "Zwijndrecht",
+    "uic_code": "8400752"
+  },
+  {
+    "station_name": "Zwijndrecht (B)",
+    "uic_code": "8894821"
+  },
+  {
+    "station_name": "Zwolle",
+    "uic_code": "8400747"
+  },
+  {
+    "station_name": "Zwolle Stadshagen",
+    "uic_code": "8400746"
+  }
+]

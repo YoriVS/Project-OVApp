@@ -3,7 +3,7 @@ package org.example.ovapp;
 public class Station {
     String name;
 
-    Station(String name) {
+    public Station(String name) {
         this.name = name;
     }
 
