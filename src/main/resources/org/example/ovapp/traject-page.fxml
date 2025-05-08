@@ -28,14 +28,14 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="N/A" GridPane.columnIndex="1" />
-            <Label text="N/A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Label fx:id="arrivalTimeLabel" text="Time of Arrival:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <Label fx:id="departureTimeLabel" text="N/A" GridPane.columnIndex="1" />
+            <Label fx:id="arrivalTimeLabel" text="N/A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="Time of Arrival:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets right="10.0" />
                </GridPane.margin>
             </Label>
-            <Label fx:id="departureTimeLabel" text="Time of departure:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+            <Label text="Time of departure:" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets right="10.0" />
                </GridPane.margin>

@@ -21,8 +21,8 @@ public class TrajectController {
     public void initialize() {
         if (OVApp.currentTraject != null) {
             trajectLabel.setText(OVApp.currentTraject.getName());
-            departureTimeLabel.setText(OVApp.currentTraject.getDepartureTime());
-            arrivalTimeLabel.setText(OVApp.currentTraject.getArrivalTime());
+            departureTimeLabel.setText(MenuController.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
+            arrivalTimeLabel.setText(MenuController.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
             inBetweenStation.getItems().clear();
             inBetweenStation.getItems().addAll(OVApp.currentTraject.getInBetweenStations());
         }

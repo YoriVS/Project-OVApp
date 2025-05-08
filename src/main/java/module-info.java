@@ -3,6 +3,7 @@ module org.example.ovapp {
     requires javafx.fxml;
     requires json.simple;
     requires com.opencsv;
+    requires java.sql;
 
 
     opens org.example.ovapp to javafx.fxml;

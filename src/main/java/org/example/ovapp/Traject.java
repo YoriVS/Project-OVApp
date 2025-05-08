@@ -1,6 +1,7 @@
 package org.example.ovapp;
 
-import java.util.ArrayList;
+import org.example.ovapp.controller.MenuController;
+
 import java.util.List;
 
 public class Traject {
@@ -9,15 +10,9 @@ public class Traject {
     List<Station> inBetweenStations;
     String timeDeparture;
     String timeArrival;
-    int number;
+    String number;
 
-    public Traject(Station from, Station to) {
-        this.from = from;
-        this.to = to;
-        this.inBetweenStations = new ArrayList<>();
-    }
-
-    public Traject(Station from, Station to, List<Station> inBetweenStation, String timeDeparture, String timeArrival, int number) {
+    public Traject(Station from, Station to, List<Station> inBetweenStation, String timeDeparture, String timeArrival, String number) {
         this.from = from;
         this.to = to;
         this.inBetweenStations = inBetweenStation;
@@ -28,7 +23,7 @@ public class Traject {
 
     @Override
     public String toString() {
-        return timeDeparture + " --> " + timeArrival;
+        return MenuController.extractHourMinute(timeDeparture) + " --> " + MenuController.extractHourMinute(timeArrival);
     }
 
     public String getName() {
@@ -42,6 +37,7 @@ public class Traject {
     public String getDepartureTime() {
         return timeDeparture;
     }
+
     public String getArrivalTime() {
         return timeArrival;
     }
