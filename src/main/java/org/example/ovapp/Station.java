@@ -7,7 +7,6 @@ public class Station {
     public Station(String uicCode, String name) {
         this.name = name;
         this.uicCode = uicCode;
-
     }
 
     @Override

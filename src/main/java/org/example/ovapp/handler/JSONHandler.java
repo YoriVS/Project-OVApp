@@ -1,16 +1,17 @@
 package org.example.ovapp.handler;
 
+import org.example.ovapp.Instance;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
 
 public class JSONHandler {
-    private static final JSONParser parser = new JSONParser();
 
+    /// Load JSON array from file (path)
     public static JSONArray loadJsonArray(String path) {
         try (FileReader reader = new FileReader(path)) {
-            return (JSONArray) parser.parse(reader);
+            return (JSONArray) Instance.parser.parse(reader);
         } catch (Exception e) {
             System.out.println("not working");
             return new JSONArray();

@@ -4,11 +4,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
-import org.example.ovapp.Constant;
-import org.example.ovapp.OVApp;
-import org.example.ovapp.Screen;
+import org.example.ovapp.*;
+import org.example.ovapp.handler.TimeHandler;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class TrajectController {
 
@@ -21,10 +21,10 @@ public class TrajectController {
     public void initialize() {
         if (OVApp.currentTraject != null) {
             trajectLabel.setText(OVApp.currentTraject.getName());
-            departureTimeLabel.setText(MenuController.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
-            arrivalTimeLabel.setText(MenuController.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
+            departureTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
+            arrivalTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
             inBetweenStation.getItems().clear();
-            inBetweenStation.getItems().addAll(OVApp.currentTraject.getInBetweenStations());
+            inBetweenStation.getItems().addAll(OVApp.currentTraject.getTrajectInfo());
         }
     }
 
