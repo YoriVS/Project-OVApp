@@ -3,6 +3,8 @@ package org.example.ovapp;
 import org.example.ovapp.controller.MenuController;
 import org.example.ovapp.handler.TimeHandler;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class Traject {
     int inBetweenTrajectsSize = 0;
 
     public Traject(Station from, Station to, List<InBetweenStation> inBetweenStation, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects) {
-        int tempIntDuration = Integer.parseInt(duration);
+        double tempDoubleDuration = Integer.parseInt(duration);
         this.from = from;
         this.to = to;
         this.inBetweenStations = inBetweenStation;
@@ -27,13 +29,13 @@ public class Traject {
         this.timeArrival = timeArrival;
         this.number = number;
         this.transferMessages = transferMessages;
-        this.duration = (tempIntDuration / 60) >= 0 ? String.valueOf(tempIntDuration / 60) : duration;
+        this.duration = (tempDoubleDuration / 60) > 0 ? new BigDecimal(tempDoubleDuration / 60).setScale(2, RoundingMode.HALF_EVEN) + "h" : duration + "min";
         this.inBetweenTrajects = inBetweenTrajects;
     }
 
     @Override
     public String toString() {
-        return TimeHandler.extractHourMinute(timeDeparture) + " --> " + TimeHandler.extractHourMinute(timeArrival) + "duration:  " + duration;
+        return TimeHandler.extractHourMinute(timeDeparture) + " --> " + TimeHandler.extractHourMinute(timeArrival) + " Duration:  " + duration;
     }
 
     /// Return the start station name and end station name
