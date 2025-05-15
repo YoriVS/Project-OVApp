@@ -3,14 +3,14 @@ package org.example.ovapp.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import org.example.ovapp.Constant;
-import org.example.ovapp.Screen;
+import org.example.ovapp.handler.ScreenHandler;
 
 import java.io.IOException;
 
 public class LoginController {
     @FXML
     protected void onLoginButtonClicked(ActionEvent actionEvent) throws IOException {
-        Screen.changeScreen("menu-page", "OVApp", Screen.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
+        ScreenHandler.changeScreen("menu-page", "OVApp", ScreenHandler.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
 
     }
 

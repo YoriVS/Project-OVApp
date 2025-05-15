@@ -1,20 +1,15 @@
-package org.example.ovapp;
+package org.example.ovapp.traject;
 
-import org.example.ovapp.controller.MenuController;
 import org.example.ovapp.handler.TimeHandler;
 
-import java.lang.reflect.Array;
-import java.sql.Time;
-import java.util.ArrayList;
-
-public class InBetweenStation extends Station {
+public class Station extends Stop {
     String arrivalTime;
     String departureTime;
     String arrivalTrack;
     String departureTrack;
     boolean transferStation;
 
-    public InBetweenStation(String uicCode, String name, String arrivalTime, String departureTime, String arrivalTrack, String departureTrack, boolean transferStation) {
+    public Station(String uicCode, String name, String arrivalTime, String departureTime, String arrivalTrack, String departureTrack, boolean transferStation) {
         super(uicCode, name);
         this.arrivalTime = arrivalTime;
         this.departureTime = departureTime;

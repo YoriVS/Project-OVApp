@@ -1,13 +1,14 @@
-package org.example.ovapp;
+package org.example.ovapp.handler;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.example.ovapp.OVApp;
 
 import java.io.IOException;
 
-public class Screen {
+public class ScreenHandler {
 
     /// Change screen with input (file.fxml, Title of screen, getStage(actionEvent), Constant.screenWith, Constant.screenHeight)
     public static void changeScreen(String screenName, String title, Stage stage, int screenWith, int screenHeight) throws IOException {

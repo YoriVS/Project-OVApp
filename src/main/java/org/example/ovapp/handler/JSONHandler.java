@@ -2,8 +2,6 @@ package org.example.ovapp.handler;
 
 import org.example.ovapp.Instance;
 import org.json.simple.JSONArray;
-import org.json.simple.parser.JSONParser;
-
 import java.io.FileReader;
 
 public class JSONHandler {

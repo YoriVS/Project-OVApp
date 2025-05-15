@@ -5,10 +5,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import org.example.ovapp.*;
+import org.example.ovapp.handler.ScreenHandler;
 import org.example.ovapp.handler.TimeHandler;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class TrajectController {
 
@@ -29,6 +29,6 @@ public class TrajectController {
     }
 
     public void onBackButtonClicked(ActionEvent actionEvent) throws IOException {
-        Screen.changeScreen("menu-page", "Menu", Screen.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
+        ScreenHandler.changeScreen("menu-page", "Menu", ScreenHandler.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
     }
 }

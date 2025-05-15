@@ -1,6 +1,6 @@
-package org.example.ovapp;
+package org.example.ovapp.traject;
 
-import org.example.ovapp.controller.MenuController;
+import org.example.ovapp.OVApp;
 import org.example.ovapp.handler.TimeHandler;
 
 import java.math.BigDecimal;
@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Traject {
-    Station from;
-    Station to;
-    List<InBetweenStation> inBetweenStations;
+    Stop from;
+    Stop to;
+    List<Stop> stations;
     String timeDeparture;
     String timeArrival;
     String number;
@@ -20,11 +20,11 @@ public class Traject {
     ArrayList<String> inBetweenTrajects;
     int inBetweenTrajectsSize = 0;
 
-    public Traject(Station from, Station to, List<InBetweenStation> inBetweenStation, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects) {
+    public Traject(Stop from, Stop to, List<Stop> station, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects) {
         double tempDoubleDuration = Integer.parseInt(duration);
         this.from = from;
         this.to = to;
-        this.inBetweenStations = inBetweenStation;
+        this.stations = station;
         this.timeDeparture = timeDeparture;
         this.timeArrival = timeArrival;
         this.number = number;
@@ -44,8 +44,8 @@ public class Traject {
     }
 
     /// Return the list of all the station in between the start and the end
-    public List<InBetweenStation> getInBetweenStations() {
-        return inBetweenStations;
+    public List<Stop> getInBetweenStations() {
+        return stations;
     }
 
     /// Return the departure time
@@ -62,21 +62,24 @@ public class Traject {
     public ArrayList<String> getTrajectInfo() {
         ArrayList<String> trajectInfo = new ArrayList<>();
 
-        for (InBetweenStation station : inBetweenStations) {
+        for (Stop station : stations) {
             if (station.arrivalTime == null) {
                 trajectInfo.add(station.getDepartureInfo());
+                System.out.println(trajectInfo);
                 if (inBetweenTrajectsSize < inBetweenTrajects.size()) {
                     trajectInfo.add(inBetweenTrajects.get(inBetweenTrajectsSize));
+                    System.out.println(trajectInfo);
                     inBetweenTrajectsSize++;
                 }
             }
             else if (station.departureTime == null) {
+                System.out.println(trajectInfo);
                 trajectInfo.add(station.getArrivalInfo());
-                if (!(inBetweenStations.indexOf(station) == inBetweenStations.size() - 1)) {
+                if (!(stations.indexOf(station) == stations.size() - 1)) {
+                    System.out.println(trajectInfo);
                     trajectInfo.add(OVApp.currentTraject.transferMessages);
                 }
             }
-
         }
         return trajectInfo;
     }

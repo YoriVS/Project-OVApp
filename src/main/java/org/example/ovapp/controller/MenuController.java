@@ -7,8 +7,10 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import org.example.ovapp.*;
 import org.example.ovapp.handler.APIHandler;
-import org.example.ovapp.Station;
-import org.example.ovapp.Traject;
+import org.example.ovapp.handler.ScreenHandler;
+import org.example.ovapp.traject.Station;
+import org.example.ovapp.traject.Stop;
+import org.example.ovapp.traject.Traject;
 import org.example.ovapp.handler.TimeHandler;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -60,7 +62,7 @@ public class MenuController {
         Traject selectedTraject = trajectList.getSelectionModel().getSelectedItem();
         if (selectedTraject != null) {
             OVApp.currentTraject = selectedTraject;
-            Screen.changeScreen("traject-page", "Traject", Screen.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
+            ScreenHandler.changeScreen("traject-page", "Traject", ScreenHandler.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
         } else {
             System.out.println("Please select a Traject.");
         }
@@ -122,8 +124,8 @@ public class MenuController {
     /// Get trips from NS API
     private ArrayList<Traject> getTrips(String fromStation, String toStation, String dateTime, boolean departureOrArrival) throws IOException, ParseException {
 
-        String encodedFrom = URLEncoder.encode(fromStation, "UTF-8");
-        String encodedTo = URLEncoder.encode(toStation, "UTF-8");
+        String encodedFrom = URLEncoder.encode(fromStation, StandardCharsets.UTF_8);
+        String encodedTo = URLEncoder.encode(toStation, StandardCharsets.UTF_8);
 
         OffsetDateTime baseDateTime = OffsetDateTime.parse(dateTime);
 
@@ -150,8 +152,8 @@ public class MenuController {
                         values.put(keyValue[0], keyValue[1]);
                     }
                 }
-                Station from = new Station(values.get("fromStation"), encodedFrom.replace("+", " "));
-                Station to = new Station(values.get("toStation"), encodedTo.replace("+", " "));
+                Stop from = new Stop(values.get("fromStation"), encodedFrom.replace("+", " "));
+                Stop to = new Stop(values.get("toStation"), encodedTo.replace("+", " "));
                 String timeDeparture = values.get("plannedFromTime");
                 String timeArrival = values.get("plannedArrivalTime");
                 String number = values.get("tripSummaryHash");
@@ -159,7 +161,7 @@ public class MenuController {
                 String transferMessage = null;
                 ArrayList<String> inBetweenTrajects = new ArrayList<>();
 
-                List<InBetweenStation> inBetweenStation = new ArrayList<>();
+                List<Stop> station = new ArrayList<>();
                 JSONArray legs = (JSONArray) trip.get("legs");
                 for (Object leg: legs) {
                     JSONObject legJSON = (JSONObject) leg;
@@ -176,7 +178,7 @@ public class MenuController {
 
                     for (Object stopObj : stopJSON) {
                         JSONObject stop = (JSONObject) stopObj;
-                        inBetweenStation.add(new InBetweenStation(
+                        station.add(new Station(
                                 (String) stop.get("uicCode"),
                                 (String) stop.get("name"),
                                 (String) stop.get("plannedArrivalDateTime"),
@@ -186,7 +188,7 @@ public class MenuController {
                                 (stop.get("actualDepartureDateTime") == null)));
                     }
                 }
-                Traject traject = new Traject(from, to, inBetweenStation, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects);
+                Traject traject = new Traject(from, to, station, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects);
                 traject1s.add(traject);
 
             }

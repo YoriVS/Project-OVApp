@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.example.ovapp.traject.Traject;
 
 public class OVApp extends Application {
     public static Traject currentTraject;
