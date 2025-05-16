@@ -161,7 +161,7 @@ public class MenuController {
                 String transferMessage = null;
                 ArrayList<String> inBetweenTrajects = new ArrayList<>();
 
-                List<Stop> station = new ArrayList<>();
+                List<Stop> stations = new ArrayList<>();
                 JSONArray legs = (JSONArray) trip.get("legs");
                 for (Object leg: legs) {
                     JSONObject legJSON = (JSONObject) leg;
@@ -169,7 +169,7 @@ public class MenuController {
                     JSONArray transferMessagesJSON = (JSONArray) legJSON.get("transferMessages");
                     if (legJSON.get("duration") != null) {
                         JSONObject durationJSON = (JSONObject) legJSON.get("duration");
-                        inBetweenTrajects.add((String) durationJSON.get("accessibilityValue"));
+                        inBetweenTrajects.add((String) durationJSON.get("accessibilityValue") + " \uD83D\uDE86");
                     }
                     if (transferMessagesJSON != null) {
                         JSONObject transferMessageJSON = (JSONObject) transferMessagesJSON.getFirst();
@@ -178,7 +178,7 @@ public class MenuController {
 
                     for (Object stopObj : stopJSON) {
                         JSONObject stop = (JSONObject) stopObj;
-                        station.add(new Station(
+                        stations.add(new Station(
                                 (String) stop.get("uicCode"),
                                 (String) stop.get("name"),
                                 (String) stop.get("plannedArrivalDateTime"),
@@ -186,9 +186,10 @@ public class MenuController {
                                 (String) stop.get("plannedArrivalTrack"),
                                 (String) stop.get("plannedDepartureTrack"),
                                 (stop.get("actualDepartureDateTime") == null)));
+
                     }
                 }
-                Traject traject = new Traject(from, to, station, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects);
+                Traject traject = new Traject(from, to, stations, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects);
                 traject1s.add(traject);
 
             }

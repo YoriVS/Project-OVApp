@@ -18,11 +18,17 @@ public class Station extends Stop {
         this.transferStation = transferStation;
     }
 
+    @Override
     public String getArrivalInfo() {
         return String.format("%s Arrival Time: %s Track %s", name, TimeHandler.extractHourMinute(arrivalTime), arrivalTrack);
     }
+    @Override
     public String getDepartureInfo() {
         return String.format("%s Departure Time: %s Track %s", name, TimeHandler.extractHourMinute(departureTime), departureTrack);
+    }
+
+    public String getInfo() {
+        return String.format("uicCode: %s \nname: %s \narrivalTime: %s\n departureInfo: %s \ndepartureTrack: %s \narrivalTrack: %s \ntransferStation: %s", uicCode, name, arrivalTime, departureTrack, departureTrack, arrivalTrack, transferStation);
     }
 
 }

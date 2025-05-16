@@ -13,9 +13,12 @@ import java.io.IOException;
 public class TrajectController {
 
     public Label trajectLabel;
+    @FXML
     public Label arrivalTimeLabel;
+    @FXML
     public Label departureTimeLabel;
-    public ListView inBetweenStation;
+    @FXML
+    public ListView station;
 
     @FXML
     public void initialize() {
@@ -23,8 +26,8 @@ public class TrajectController {
             trajectLabel.setText(OVApp.currentTraject.getName());
             departureTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
             arrivalTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
-            inBetweenStation.getItems().clear();
-            inBetweenStation.getItems().addAll(OVApp.currentTraject.getTrajectInfo());
+            station.getItems().clear();
+            station.getItems().addAll(OVApp.currentTraject.getTrajectInfo());
         }
     }
 

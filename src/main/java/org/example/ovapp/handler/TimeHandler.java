@@ -1,5 +1,7 @@
 package org.example.ovapp.handler;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
@@ -36,5 +38,23 @@ public class TimeHandler {
         OffsetDateTime dateTime = OffsetDateTime.parse(rfc3339Time, FLEXIBLE_RFC3339_PARSER);
         return dateTime.toLocalTime().format(DateTimeFormatter.ofPattern("HH:mm"));
 
+    }
+
+    public static String convertHourToHourMinute(String timeInHours) {
+        double tempDoubleDuration = Integer.parseInt(timeInHours);
+        if ((tempDoubleDuration / 60) < 0) {
+            return timeInHours + " minute";
+        }
+        String time = String.valueOf(new BigDecimal(tempDoubleDuration / 60).setScale(2, RoundingMode.HALF_UP));
+
+        String[] parts = time.split("\\.");
+
+        int hour = Integer.parseInt(parts[0]);
+        int minute = Integer.parseInt(parts[1]);
+
+        minute = (minute * 60) / 100;
+
+
+        return hour + "h " + minute + "min";
     }
 }

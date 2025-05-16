@@ -21,7 +21,6 @@ public class Traject {
     int inBetweenTrajectsSize = 0;
 
     public Traject(Stop from, Stop to, List<Stop> station, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects) {
-        double tempDoubleDuration = Integer.parseInt(duration);
         this.from = from;
         this.to = to;
         this.stations = station;
@@ -29,7 +28,7 @@ public class Traject {
         this.timeArrival = timeArrival;
         this.number = number;
         this.transferMessages = transferMessages;
-        this.duration = (tempDoubleDuration / 60) > 0 ? new BigDecimal(tempDoubleDuration / 60).setScale(2, RoundingMode.HALF_EVEN) + "h" : duration + "min";
+        this.duration = TimeHandler.convertHourToHourMinute(duration);
         this.inBetweenTrajects = inBetweenTrajects;
     }
 
@@ -62,22 +61,19 @@ public class Traject {
     public ArrayList<String> getTrajectInfo() {
         ArrayList<String> trajectInfo = new ArrayList<>();
 
-        for (Stop station : stations) {
+        for (Stop stop : stations) {
+            Station station = (Station) stop;
             if (station.arrivalTime == null) {
                 trajectInfo.add(station.getDepartureInfo());
-                System.out.println(trajectInfo);
                 if (inBetweenTrajectsSize < inBetweenTrajects.size()) {
                     trajectInfo.add(inBetweenTrajects.get(inBetweenTrajectsSize));
-                    System.out.println(trajectInfo);
                     inBetweenTrajectsSize++;
                 }
             }
             else if (station.departureTime == null) {
-                System.out.println(trajectInfo);
                 trajectInfo.add(station.getArrivalInfo());
                 if (!(stations.indexOf(station) == stations.size() - 1)) {
-                    System.out.println(trajectInfo);
-                    trajectInfo.add(OVApp.currentTraject.transferMessages);
+                    trajectInfo.add(OVApp.currentTraject.transferMessages + "\uD83D\uDEB6\u200D♂\uFE0F");
                 }
             }
         }
