@@ -25,7 +25,6 @@
             <artifactId>javafx-fxml</artifactId>
             <version>23.0.1</version>
         </dependency>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -38,6 +37,22 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mobilitydata</groupId>
+            <artifactId>gtfs-realtime-bindings</artifactId>
+            <version>0.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.7.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
