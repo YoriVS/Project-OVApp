@@ -8,15 +8,17 @@ import org.example.ovapp.traject.Traject;
 
 public class OVApp extends Application {
     public static Traject currentTraject;
+    public static Stage currentStage;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login-page.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 300);
-        primaryStage.setTitle("Login");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-        primaryStage.setResizable(false);
+        currentStage = primaryStage;
+        currentStage.setTitle("Login");
+        currentStage.setScene(scene);
+        currentStage.show();
+        currentStage.setResizable(false);
     }
 
     public static void main(String[] args) {

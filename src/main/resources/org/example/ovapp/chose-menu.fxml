@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<BorderPane prefHeight="400.0" prefWidth="600.0" maxHeight="400.0" maxWidth="600.0" styleClass="ovApp-window" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ovapp.controller.ChoseController">
+
+    <top>
+        <HBox alignment="CENTER_LEFT" prefHeight="40.0" spacing="10.0">
+            <padding>
+                <Insets left="15.0" right="15.0" />
+            </padding>
+            <children>
+                <Button fx:id="menuButton" onAction="#handleMenuButtonAction" styleClass="button-menu" text="menu" />
+                <Button fx:id="settingsButton" onAction="#handleSettingsButtonAction" text="settings" />
+                <Button fx:id="restartButton" onAction="#handleRestartButtonAction" text="restart" />
+                <Region HBox.hgrow="ALWAYS" /> <Button fx:id="logoutButton" onAction="#handleLogoutButtonAction" text="logout" />
+            </children>
+        </HBox>
+    </top>
+
+    <center>
+        <StackPane>
+            <children>
+                <VBox alignment="CENTER" maxWidth="350.0" spacing="15.0">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="57.0" prefWidth="276.0">
+                            <children>
+                                <Button fx:id="swapLocationsButton" onAction="#handleSwapLocationsButtonAction" prefHeight="60.0" prefWidth="40.0" styleClass="button-switch-location" text="⇅">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                                </Button>
+                                <VBox>
+                                    <children>
+                                        <TextField fx:id="currentLocationField" prefHeight="20.0" promptText="current location" styleClass="text-field-location">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin></TextField>
+                                        <TextField fx:id="endLocationField" prefHeight="20.0" promptText="end location" styleClass="text-field-location">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin></TextField>
+                                    </children>
+                                </VBox>
+                                <VBox alignment="CENTER" spacing="2.0">
+                                    <children>
+                                        <Button fx:id="saveRouteVisualButton" onAction="#handleSaveRouteButtonAction" prefHeight="35.0" prefWidth="15.0" styleClass="button-save-location" text="+">
+                                            <font>
+                                                <Font name="System Bold" size="16.0" />
+                                            </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                        </Button>
+                                        <Label style="-fx-font-size: 10px;" text="save route" />
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets left="5.0" />
+                                    </HBox.margin>
+                                </VBox>
+                            </children>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets top="2.5" />
+                     </padding>
+                        </HBox>
+
+                        <Button fx:id="manageRoutesButton" maxWidth="Infinity" onAction="#handleManageRoutesButtonAction" prefHeight="35.0" text="Manage routes" />
+
+                        <ComboBox fx:id="chooseTransportComboBox" maxWidth="Infinity" prefHeight="35.0" promptText="Choose transport">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Train" />
+                                    <String fx:value="Bus" />
+                                </FXCollections>
+                            </items>
+                            <value>
+                                <String fx:value="Train" />
+                            </value>
+                        </ComboBox>
+
+                        <HBox alignment="CENTER_LEFT" spacing="10.0">
+                            <children>
+                                <ComboBox fx:id="timeTypeComboBox" prefHeight="35.0" prefWidth="120.0">
+                                    <items>
+                                        <FXCollections fx:factory="observableArrayList">
+                                            <String fx:value="Departure" />
+                                            <String fx:value="Arrival" />
+                                        </FXCollections>
+                                    </items>
+                                    <value>
+                                        <String fx:value="Departure" />
+                                    </value>
+                                </ComboBox>
+                                <TextField fx:id="timeField" prefHeight="35.0" promptText="time: now" HBox.hgrow="ALWAYS" />
+                            </children>
+                        </HBox>
+
+                        <Button fx:id="searchButton" onAction="#searchTrajectButtonClicked" prefHeight="35.0" prefWidth="150.0" text="search" />
+                    </children>
+                </VBox>
+            </children>
+        </StackPane>
+    </center>
+</BorderPane>

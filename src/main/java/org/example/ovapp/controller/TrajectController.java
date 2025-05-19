@@ -31,7 +31,7 @@ public class TrajectController {
         }
     }
 
-    public void onBackButtonClicked(ActionEvent actionEvent) throws IOException {
-        ScreenHandler.changeScreen("menu-page", "Menu", ScreenHandler.getStage(actionEvent), Constant.screenWidth, Constant.screenHeight);
+    public void onBackButtonClicked() {
+        ScreenHandler.changeScreen("menu-page", OVApp.currentStage);
     }
 }
