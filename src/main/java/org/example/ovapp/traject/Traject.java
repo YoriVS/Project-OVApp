@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Traject {
     Stop from;
@@ -79,4 +80,22 @@ public class Traject {
         }
         return trajectInfo;
     }
+
+    public String getNumber() {
+        return number;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Traject traject = (Traject) o;
+        return Objects.equals(number, traject.number);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(number);
+    }
+
+    // Single responsibility principe !!11!!_!!
 }

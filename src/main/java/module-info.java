@@ -14,4 +14,6 @@ module org.example.ovapp {
     opens org.example.ovapp.handler to javafx.fxml;
     exports org.example.ovapp.traject;
     opens org.example.ovapp.traject to javafx.fxml;
+    exports org.example.ovapp.nsApi;
+    opens org.example.ovapp.nsApi to javafx.fxml;
 }

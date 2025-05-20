@@ -51,6 +51,37 @@
     -fx-font-size: 10pt;
 }
 
+.list-view-traject-info {
+    -fx-background-color: #f0f0f0;
+}
+
+.list-view-traject-info .list-cell {
+    -fx-font-size: 11px;
+    -fx-text-fill: black;
+}
+
+.list-view-traject-list {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-padding: 10px;
+    -fx-cell-size: 40px;
+}
+
+.list-view-traject-list .list-cell {
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+.list-cell:hover {
+    -fx-background-color: #b1b1b1;
+    -fx-border-width: 1px;
+}
+
+.list-view-bar {
+
+}
+
 .ovApp-window {
     -fx-background-color: #eaeaea;
 }

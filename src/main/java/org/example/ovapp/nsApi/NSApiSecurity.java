@@ -1,4 +1,4 @@
-package org.example.ovapp.handler;
+package org.example.ovapp.nsApi;
 
 import org.example.ovapp.Instance;
 
@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class APIHandler {
-    /// return the result of the url get request
-    public static HttpURLConnection getHttpURLConnection(String urlString) throws IOException {
+public class NSApiSecurity {
+
+    public static HttpURLConnection getConnection(String urlString) throws IOException {
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
@@ -19,5 +19,4 @@ public class APIHandler {
         connection.setRequestMethod("GET");
         return connection;
     }
-
 }

@@ -31,7 +31,9 @@ public class TrajectController {
         }
     }
 
+    /// Go back to
+    @FXML
     public void onBackButtonClicked() {
-        ScreenHandler.changeScreen("menu-page", OVApp.currentStage);
+        ScreenHandler.changeScreen("traject-list", OVApp.currentStage);
     }
 }

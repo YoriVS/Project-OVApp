@@ -5,34 +5,15 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.Pane;
-import org.example.ovapp.Instance;
 import org.example.ovapp.OVApp;
-import org.example.ovapp.handler.APIHandler;
 import org.example.ovapp.handler.ScreenHandler;
 import org.example.ovapp.handler.TimeHandler;
 import org.example.ovapp.traject.Route;
-import org.example.ovapp.traject.Station;
-import org.example.ovapp.traject.Stop;
 import org.example.ovapp.traject.Traject;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-import java.time.OffsetDateTime;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
-public class ChoseController {
+public class TrajectOptionController {
 
     public Button logoutButton;
     public Button swapLocationsButton;

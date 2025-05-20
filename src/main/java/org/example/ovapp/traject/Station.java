@@ -20,11 +20,23 @@ public class Station extends Stop {
 
     @Override
     public String getArrivalInfo() {
-        return String.format("%s Arrival Time: %s Track %s", name, TimeHandler.extractHourMinute(arrivalTime), arrivalTrack);
+        String info;
+        if (arrivalTrack == null) {
+            info = String.format("%s Arrival Time: %s", name, TimeHandler.extractHourMinute(arrivalTime));
+        } else {
+            info = String.format("%s Arrival Time: %s Track %s", name, TimeHandler.extractHourMinute(arrivalTime), arrivalTrack);
+        }
+        return info;
     }
     @Override
     public String getDepartureInfo() {
-        return String.format("%s Departure Time: %s Track %s", name, TimeHandler.extractHourMinute(departureTime), departureTrack);
+        String info;
+        if (arrivalTrack == null) {
+            info = String.format("%s Departure Time: %s", name, TimeHandler.extractHourMinute(departureTime));
+        } else {
+            info = String.format("%s Departure Time: %s Track %s", name, TimeHandler.extractHourMinute(departureTime), departureTrack);
+        }
+        return info;
     }
 
     public String getInfo() {
