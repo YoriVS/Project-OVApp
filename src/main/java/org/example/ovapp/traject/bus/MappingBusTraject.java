@@ -18,10 +18,10 @@ public class MappingBusTraject {
             JSONObject endStation = (JSONObject) tripJSON.get("end_station");
 
             if (beginStation.get("name").equals(fromStation) && endStation.get("name").equals(toStation)) {
-                Stop startHalte = new Stop((String) beginStation.get("uicCode"), (String) beginStation.get("name"));
-                Stop endHalte = new Stop((String) endStation.get("uicCode"), (String) endStation.get("name"));
                 String startTime = (String) tripJSON.get("start_time");
                 String endTime = (String) tripJSON.get("end_time");
+                Halte startHalte = new Halte((String) beginStation.get("uicCode"), (String) beginStation.get("name"), null, startTime, false);
+                Halte endHalte = new Halte((String) endStation.get("uicCode"), (String) endStation.get("name"), endTime, null, false);
                 String number = (String) tripJSON.get("number");
                 String totalDuration = ((Long) tripJSON.get("total_time_minutes")).toString();
                 JSONArray legDurationsMinutes = (JSONArray) tripJSON.get("leg_durations_minutes");

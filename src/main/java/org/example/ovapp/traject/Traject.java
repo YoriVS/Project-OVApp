@@ -109,17 +109,19 @@ public class Traject {
 
             case "Bus":
                 trajectInfo.add(from.getDepartureInfo());
-                trajectInfo.add(inBetweenTrajects.getFirst());
-                int i = 1;
+                trajectInfo.add(inBetweenTrajects.getFirst() + "min");
+                inBetweenTrajects.removeFirst();
+                int i = 0;
                 for (Stop stop : stops) {
                     trajectInfo.add(stop.getName());
-                    trajectInfo.add(inBetweenTrajects.get(i));
+                    trajectInfo.add(inBetweenTrajects.get(i) + "min");
                     i++;
                 }
-                trajectInfo.add(to.getArrivalInfo());
-                trajectInfo.add(inBetweenTrajects.getLast());
+                trajectInfo.add(inBetweenTrajects.getLast() + "min");
+                trajectInfo.add(to.getName());
                 break;
         }
+
         return trajectInfo;
     }
 

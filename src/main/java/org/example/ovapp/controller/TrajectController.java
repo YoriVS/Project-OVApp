@@ -27,7 +27,7 @@ public class TrajectController {
             departureTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
             arrivalTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
             station.getItems().clear();
-            station.getItems().addAll(OVApp.currentTraject.getInBetweenStations());
+            station.getItems().addAll(OVApp.currentTraject.getTrajectInfo());
         } else {
             System.out.println("not good");
         }

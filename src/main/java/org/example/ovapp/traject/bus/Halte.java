@@ -1,11 +1,12 @@
 package org.example.ovapp.traject.bus;
 
+import org.example.ovapp.handler.TimeHandler;
 import org.example.ovapp.traject.Stop;
 
 public class Halte extends Stop {
-    String arrivalTime;
-    String departureTime;
-    boolean transferStation;
+    private String arrivalTime;
+    private String departureTime;
+    private boolean transferStation;
 
     public Halte(String uicCode, String name, String arrivalTime, String departureTime, boolean transferStation) {
         super(uicCode, name);
@@ -37,4 +38,15 @@ public class Halte extends Stop {
     public void setTransferStation(boolean transferStation) {
         this.transferStation = transferStation;
     }
+
+    @Override
+    public String getArrivalInfo() {
+        return String.format("%s Arrival Time: %s", super.getName(), TimeHandler.extractHourMinute(arrivalTime));
+    }
+
+    @Override
+    public String getDepartureInfo() {
+        return String.format("%s Departure Time: %s", super.getName(), TimeHandler.extractHourMinute(departureTime));
+    }
+
 }
