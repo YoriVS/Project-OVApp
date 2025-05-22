@@ -3,6 +3,7 @@ package org.example.ovapp.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import org.example.ovapp.*;
+import org.example.ovapp.controller.TrajectOption.TrajectOptionController;
 import org.example.ovapp.nsApi.NSProxy;
 import org.example.ovapp.handler.ScreenHandler;
 import org.example.ovapp.traject.Route;

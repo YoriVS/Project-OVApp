@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <?import java.lang.*?>
-<BorderPane prefHeight="400.0" prefWidth="600.0" maxHeight="400.0" maxWidth="600.0" styleClass="ovApp-window" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ovapp.controller.TrajectOptionController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" maxHeight="400.0" maxWidth="600.0" styleClass="ovApp-window" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ovapp.controller.TrajectOption.TrajectOptionController">
 
     <top>
         <HBox alignment="CENTER_LEFT" prefHeight="40.0" spacing="10.0">

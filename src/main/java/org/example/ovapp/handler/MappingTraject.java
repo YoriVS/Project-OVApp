@@ -45,7 +45,7 @@ public class MappingTraject {
                 JSONArray transferMessagesJSON = (JSONArray) legJSON.get("transferMessages");
                 if (legJSON.get("duration") != null) {
                     JSONObject durationJSON = (JSONObject) legJSON.get("duration");
-                    inBetweenTrajects.add((String) durationJSON.get("accessibilityValue") + " \uD83D\uDE86");
+                    inBetweenTrajects.add(durationJSON.get("accessibilityValue") + " \uD83D\uDE86");
                 }
                 if (transferMessagesJSON != null) {
                     JSONObject transferMessageJSON = (JSONObject) transferMessagesJSON.getFirst();

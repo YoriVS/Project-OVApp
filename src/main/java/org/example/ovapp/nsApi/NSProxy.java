@@ -31,6 +31,8 @@ public class NSProxy {
             JSONObject tripsJSON = (JSONObject) new JSONParser().parse(new InputStreamReader(connection.getInputStream()));
             JSONArray trips = (JSONArray) tripsJSON.get("trips");
 
+            System.out.println(trips);
+
             trajects.addAll((MappingTraject.getTrajectFromJSONArray(trips, encodedFrom, encodedTo)));
 
             return trajects;
