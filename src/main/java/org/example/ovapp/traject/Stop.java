@@ -32,4 +32,8 @@ public class Stop {
     public String getDepartureInfo() {
         return String.format("%s Departure Time: %s", name, TimeHandler.extractHourMinute(departureTime));
     }
+
+    public String getArrivalTime() {
+        return arrivalTime;
+    }
 }

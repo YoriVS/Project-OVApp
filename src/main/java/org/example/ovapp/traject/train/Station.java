@@ -23,6 +23,10 @@ public class Station extends Stop {
         return arrivalTime;
     }
 
+    public boolean arrivalTimeExiste() {
+        return arrivalTime != null;
+    }
+
     public void setArrivalTime(String arrivalTime) {
         this.arrivalTime = arrivalTime;
     }

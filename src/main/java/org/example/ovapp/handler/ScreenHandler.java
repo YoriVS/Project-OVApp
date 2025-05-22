@@ -31,6 +31,7 @@ public class ScreenHandler {
             stage.show();
         } catch (IOException e) {
             ScreenHandler.openPopup("Failed to open screen");
+            System.out.println(e.getMessage());
         }
     }
 

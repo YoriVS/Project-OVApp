@@ -27,7 +27,9 @@ public class TrajectController {
             departureTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getDepartureTime()));
             arrivalTimeLabel.setText(TimeHandler.extractHourMinute(OVApp.currentTraject.getArrivalTime()));
             station.getItems().clear();
-            station.getItems().addAll(OVApp.currentTraject.getTrajectInfo());
+            station.getItems().addAll(OVApp.currentTraject.getInBetweenStations());
+        } else {
+            System.out.println("not good");
         }
     }
 
@@ -35,5 +37,20 @@ public class TrajectController {
     @FXML
     public void onBackButtonClicked() {
         ScreenHandler.changeScreen("traject-list", OVApp.currentStage);
+    }
+
+    public void handleMenuButtonAction(ActionEvent actionEvent) {
+    }
+
+    public void handleSettingsButtonAction(ActionEvent actionEvent) {
+    }
+
+    public void handleRestartButtonAction(ActionEvent actionEvent) {
+    }
+
+    public void handleLogoutButtonAction(ActionEvent actionEvent) {
+    }
+
+    public void handleRefreshButtonAction(ActionEvent actionEvent) {
     }
 }

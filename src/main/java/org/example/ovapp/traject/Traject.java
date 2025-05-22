@@ -11,30 +11,56 @@ import java.util.Objects;
 public class Traject {
     Stop from;
     Stop to;
-    List<Stop> stations;
+    List<Stop> stops;
     String timeDeparture;
     String timeArrival;
     String number;
     String transferMessages;
     String duration;
     ArrayList<String> inBetweenTrajects;
+    String vehicle;
     int inBetweenTrajectsSize = 0;
 
-    public Traject(Stop from, Stop to, List<Stop> station, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects) {
+    public Stop getFrom() {
+        return from;
+    }
+
+    public void setFrom(Stop from) {
+        this.from = from;
+    }
+
+    public Stop getTo() {
+        return to;
+    }
+
+    public void setTo(Stop to) {
+        this.to = to;
+    }
+
+    public Traject(Stop from, Stop to, List<Stop> stops, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects, String vehicle) {
         this.from = from;
         this.to = to;
-        this.stations = station;
+        this.stops = stops;
         this.timeDeparture = timeDeparture;
         this.timeArrival = timeArrival;
         this.number = number;
         this.transferMessages = transferMessages;
         this.duration = TimeHandler.convertMinuteToHourMinute(duration);
         this.inBetweenTrajects = inBetweenTrajects;
+        this.vehicle = vehicle;
     }
 
     @Override
     public String toString() {
         return TimeHandler.extractHourMinute(timeDeparture) + " --> " + TimeHandler.extractHourMinute(timeArrival) + " Duration:  " + duration;
+    }
+
+    public String getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(String vehicle) {
+        this.vehicle = vehicle;
     }
 
     /// Return the start station name and end station name
@@ -44,7 +70,7 @@ public class Traject {
 
     /// Return the list of all the station in between the start and the end
     public List<Stop> getInBetweenStations() {
-        return stations;
+        return stops;
     }
 
     /// Return the departure time
@@ -61,21 +87,38 @@ public class Traject {
     public ArrayList<String> getTrajectInfo() {
         ArrayList<String> trajectInfo = new ArrayList<>();
 
-        for (Stop stop : stations) {
-            Station station = (Station) stop;
-            if (station.getArrivalTime() == null) {
-                trajectInfo.add(station.getDepartureInfo());
-                if (inBetweenTrajectsSize < inBetweenTrajects.size()) {
-                    trajectInfo.add(inBetweenTrajects.get(inBetweenTrajectsSize));
-                    inBetweenTrajectsSize++;
+        switch (vehicle) {
+            case "Train":
+                for (Stop stop : stops) {
+                    Station station = (Station) stop;
+                    if (station.getArrivalTime() == null) {
+                        trajectInfo.add(station.getDepartureInfo());
+                        if (inBetweenTrajectsSize < inBetweenTrajects.size()) {
+                            trajectInfo.add(inBetweenTrajects.get(inBetweenTrajectsSize));
+                            inBetweenTrajectsSize++;
+                        }
+                    }
+                    else if (station.getDepartureTime() == null) {
+                        trajectInfo.add(station.getArrivalInfo());
+                        if (!(stops.indexOf(station) == stops.size() - 1)) {
+                            trajectInfo.add(OVApp.currentTraject.transferMessages + "\uD83D\uDEB6\u200D♂\uFE0F");
+                        }
+                    }
                 }
-            }
-            else if (station.getDepartureTime() == null) {
-                trajectInfo.add(station.getArrivalInfo());
-                if (!(stations.indexOf(station) == stations.size() - 1)) {
-                    trajectInfo.add(OVApp.currentTraject.transferMessages + "\uD83D\uDEB6\u200D♂\uFE0F");
+                break;
+
+            case "Bus":
+                trajectInfo.add(from.getDepartureInfo());
+                trajectInfo.add(inBetweenTrajects.getFirst());
+                int i = 1;
+                for (Stop stop : stops) {
+                    trajectInfo.add(stop.getName());
+                    trajectInfo.add(inBetweenTrajects.get(i));
+                    i++;
                 }
-            }
+                trajectInfo.add(to.getArrivalInfo());
+                trajectInfo.add(inBetweenTrajects.getLast());
+                break;
         }
         return trajectInfo;
     }

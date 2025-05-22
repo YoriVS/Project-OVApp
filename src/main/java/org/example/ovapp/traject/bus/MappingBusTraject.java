@@ -24,8 +24,10 @@ public class MappingBusTraject {
                 String endTime = (String) tripJSON.get("end_time");
                 String number = (String) tripJSON.get("number");
                 String totalDuration = ((Long) tripJSON.get("total_time_minutes")).toString();
-                ArrayList<Stop> inBetweenStops = new ArrayList<>();
+                JSONArray legDurationsMinutes = (JSONArray) tripJSON.get("leg_durations_minutes");
                 JSONArray stops = (JSONArray) tripJSON.get("intermediate_stops");
+                ArrayList<Stop> inBetweenStops = new ArrayList<>();
+                ArrayList<String> inBetweenDuration = new ArrayList<>();
 
                 for (Object stop : stops) {
                     JSONObject stopJSON = (JSONObject) stop;
@@ -33,7 +35,12 @@ public class MappingBusTraject {
                     inBetweenStops.add(new Stop((String) stopJSON.get("uicCode"), (String) stopJSON.get("name")));
                 }
 
-                trajects.add(new Traject(startHalte, endHalte, inBetweenStops, startTime, endTime, number, null, totalDuration, null));
+                for (Object time : legDurationsMinutes) {
+                    Long timeLong = (Long) time;
+                    inBetweenDuration.add(timeLong.toString());
+                }
+
+                trajects.add(new Traject(startHalte, endHalte, inBetweenStops, startTime, endTime, number, null, totalDuration, inBetweenDuration, "Bus"));
             }
 
         }

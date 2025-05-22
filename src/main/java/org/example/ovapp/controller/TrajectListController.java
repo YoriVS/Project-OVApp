@@ -1,5 +1,6 @@
 package org.example.ovapp.controller;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import org.example.ovapp.*;
@@ -39,7 +40,7 @@ public class TrajectListController {
         Traject selectedTraject = trajectList.getSelectionModel().getSelectedItem();
         if (selectedTraject != null) {
             OVApp.currentTraject = selectedTraject;
-            ScreenHandler.changeScreen("traject-page", OVApp.currentStage);
+            ScreenHandler.changeScreen("traject-page.fxml", OVApp.currentStage);
         } else {
             System.out.println("Please select a Traject.");
         }
@@ -71,4 +72,21 @@ public class TrajectListController {
     public void handleBackButtonAction() {
         ScreenHandler.changeScreen("chose-menu", OVApp.currentStage);
     }
+
+    public void handleMenuButtonAction(ActionEvent actionEvent) {
+        ScreenHandler.changeScreen("chose-menu.fxml", OVApp.currentStage);
+    }
+
+    public void handleSettingsButtonAction(ActionEvent actionEvent) {
+        // #TODO Setting
+    }
+
+    public void handleRestartButtonAction(ActionEvent actionEvent) {
+        ScreenHandler.changeScreen("chose-menu.fxml", OVApp.currentStage);
+    }
+
+    public void handleLogoutButtonAction(ActionEvent actionEvent) {
+        ScreenHandler.changeScreen("login-page.fxml", OVApp.currentStage);
+    }
+
 }

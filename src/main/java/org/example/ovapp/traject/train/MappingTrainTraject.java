@@ -64,7 +64,7 @@ public class MappingTrainTraject {
 
                 }
             }
-            Traject traject = new Traject(from, to, stations, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects);
+            Traject traject = new Traject(from, to, stations, timeDeparture, timeArrival, number, transferMessage, totalDuration, inBetweenTrajects, "Train");
             trajects.add(traject);
         }
         return trajects;
