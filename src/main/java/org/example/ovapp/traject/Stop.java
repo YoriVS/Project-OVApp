@@ -3,10 +3,10 @@ package org.example.ovapp.traject;
 import org.example.ovapp.handler.TimeHandler;
 
 public class Stop {
-    String arrivalTime;
-    String departureTime;
-    String name;
-    String uicCode;
+    private String arrivalTime;
+    private String departureTime;
+    private String name;
+    private String uicCode;
 
     public Stop(String uicCode, String name) {
         this.name = name;
@@ -25,7 +25,6 @@ public class Stop {
     public String getUicCode() {
         return uicCode;
     }
-
 
     public String getArrivalInfo() {
         return String.format("%s Arrival Time: %s", name, TimeHandler.extractHourMinute(arrivalTime));

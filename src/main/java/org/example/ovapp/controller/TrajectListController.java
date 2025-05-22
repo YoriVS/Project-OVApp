@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import org.example.ovapp.*;
 import org.example.ovapp.controller.TrajectOption.TrajectOptionController;
-import org.example.ovapp.nsApi.NSProxy;
+import org.example.ovapp.nsApi.train.NSProxy;
 import org.example.ovapp.handler.ScreenHandler;
 import org.example.ovapp.traject.Route;
 import org.example.ovapp.traject.Traject;
@@ -18,8 +18,7 @@ import java.util.stream.Collectors;
 public class TrajectListController {
     /// Load FXML items
     @FXML
-    public ListView<Traject> trajectList;  // Use generic type for better type safety
-
+    public ListView<Traject> trajectList;
     private static List<Traject> trajects = new ArrayList<>();
     private static int moreButtonTimeClicked = 0;
     private Route selectedRoute;
@@ -28,8 +27,9 @@ public class TrajectListController {
     @FXML
     public void initialize() {
         trajectList.getItems().clear();
+        trajects.clear();
         selectedRoute = TrajectOptionController.selectedRoute;
-        trajects.addAll(NSProxy.getTrips(selectedRoute.getStartPoint(), selectedRoute.getEndPoint(), TimeHandler.convertTimeToRFC3339(selectedRoute.getTime()), selectedRoute.getDepartureOrNot()));
+        trajects.addAll(NSProxy.getTrips(selectedRoute.getStartPoint(), selectedRoute.getEndPoint(), TimeHandler.convertTimeToRFC3339(selectedRoute.getTime()), selectedRoute.isDepartureOrNot(), selectedRoute.getVehicle()));
         trajectList.getItems().addAll(trajects);
     }
 
@@ -54,7 +54,7 @@ public class TrajectListController {
             if (baseDateTime.plusHours(moreButtonTimeClicked).toLocalTime().getHour() < 5) {
                 moreButtonTimeClicked += 5;
             }
-            trajects.addAll(NSProxy.getTrips(selectedRoute.getStartPoint(), selectedRoute.getEndPoint(), baseDateTime.plusHours(moreButtonTimeClicked).toString(), selectedRoute.getDepartureOrNot()));
+            trajects.addAll(NSProxy.getTrips(selectedRoute.getStartPoint(), selectedRoute.getEndPoint(), baseDateTime.plusHours(moreButtonTimeClicked).toString(), selectedRoute.isDepartureOrNot(), selectedRoute.getVehicle()));
 
             trajects = trajects.stream().distinct().collect(Collectors.toList());
 

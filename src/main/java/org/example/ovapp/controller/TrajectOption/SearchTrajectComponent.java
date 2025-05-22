@@ -53,7 +53,8 @@ public class SearchTrajectComponent {
             String startPoint = currentLocationField.getText();
             String endPoint = endLocationField.getText();
             boolean departureOrNot = timeTypeComboBox.getSelectionModel().getSelectedItem().equals("Arrival");
-            return new Route(startPoint, endPoint, departureOrNot, baseDateTime);
+            String vehicle = chooseTransportComboBox.getSelectionModel().getSelectedItem().toString();
+            return new Route(startPoint, endPoint, departureOrNot, baseDateTime, vehicle);
         }
         return null;
     }

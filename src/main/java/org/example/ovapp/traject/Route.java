@@ -7,17 +7,19 @@ public class Route {
     private String endPoint;
     private boolean departureOrNot;
     private String time;
+    private String vehicle;
 
     public Route(String startPoint, String endPoint) {
         this.startPoint = startPoint;
         this.endPoint = endPoint;
     }
 
-    public Route(String startPoint, String endPoint, boolean departureOrNot, String time) {
+    public Route(String startPoint, String endPoint, boolean departureOrNot, String time, String vehicle) {
         this.startPoint = startPoint;
         this.endPoint = endPoint;
         this.departureOrNot = departureOrNot;
         this.time = time;
+        this.vehicle = vehicle;
     }
 
     public String getStartPoint() {
@@ -40,6 +42,10 @@ public class Route {
         return departureOrNot;
     }
 
+    public boolean isDepartureOrNot() {
+        return departureOrNot;
+    }
+
     public void setDepartureOrNot(boolean departureOrNot) {
         this.departureOrNot = departureOrNot;
     }
@@ -50,5 +56,13 @@ public class Route {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+    public String getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(String vehicle) {
+        this.vehicle = vehicle;
     }
 }

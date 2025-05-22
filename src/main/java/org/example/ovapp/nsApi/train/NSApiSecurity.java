@@ -1,4 +1,4 @@
-package org.example.ovapp.nsApi;
+package org.example.ovapp.nsApi.train;
 
 import org.example.ovapp.Instance;
 

@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.example.ovapp.traject.Traject;
+import org.example.ovapp.traject.bus.Halte;
 
 public class OVApp extends Application {
     public static Traject currentTraject;

@@ -40,7 +40,7 @@ public class TimeHandler {
 
     }
 
-    public static String convertHourToHourMinute(String timeInHours) {
+    public static String convertMinuteToHourMinute(String timeInHours) {
         double tempDoubleDuration = Integer.parseInt(timeInHours);
         if ((tempDoubleDuration / 60) < 0) {
             return timeInHours + " minute";

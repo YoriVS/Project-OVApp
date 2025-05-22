@@ -1,6 +1,5 @@
-package org.example.ovapp.handler;
+package org.example.ovapp.traject.train;
 
-import org.example.ovapp.traject.Station;
 import org.example.ovapp.traject.Stop;
 import org.example.ovapp.traject.Traject;
 import org.json.simple.JSONArray;
@@ -11,10 +10,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MappingTraject {
+public class MappingTrainTraject {
 
 
-    public static ArrayList<Traject> getTrajectFromJSONArray(JSONArray trips, String encodedFrom, String encodedTo) {
+    public static ArrayList<Traject> getTrainTrajectFromJSONArray(JSONArray trips, String encodedFrom, String encodedTo) {
         ArrayList<Traject> trajects = new ArrayList<>();
 
         for (Object tripObj : trips) {

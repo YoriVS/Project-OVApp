@@ -2,9 +2,8 @@ package org.example.ovapp.traject;
 
 import org.example.ovapp.OVApp;
 import org.example.ovapp.handler.TimeHandler;
+import org.example.ovapp.traject.train.Station;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -29,7 +28,7 @@ public class Traject {
         this.timeArrival = timeArrival;
         this.number = number;
         this.transferMessages = transferMessages;
-        this.duration = TimeHandler.convertHourToHourMinute(duration);
+        this.duration = TimeHandler.convertMinuteToHourMinute(duration);
         this.inBetweenTrajects = inBetweenTrajects;
     }
 
@@ -64,14 +63,14 @@ public class Traject {
 
         for (Stop stop : stations) {
             Station station = (Station) stop;
-            if (station.arrivalTime == null) {
+            if (station.getArrivalTime() == null) {
                 trajectInfo.add(station.getDepartureInfo());
                 if (inBetweenTrajectsSize < inBetweenTrajects.size()) {
                     trajectInfo.add(inBetweenTrajects.get(inBetweenTrajectsSize));
                     inBetweenTrajectsSize++;
                 }
             }
-            else if (station.departureTime == null) {
+            else if (station.getDepartureTime() == null) {
                 trajectInfo.add(station.getArrivalInfo());
                 if (!(stations.indexOf(station) == stations.size() - 1)) {
                     trajectInfo.add(OVApp.currentTraject.transferMessages + "\uD83D\uDEB6\u200D♂\uFE0F");
