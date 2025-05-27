@@ -31,7 +31,6 @@ public class MappingBusTraject {
 
                 for (Object stop : stops) {
                     JSONObject stopJSON = (JSONObject) stop;
-
                     inBetweenStops.add(new Stop((String) stopJSON.get("uicCode"), (String) stopJSON.get("name")));
                 }
 
