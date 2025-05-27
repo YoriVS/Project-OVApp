@@ -1,710 +1,186 @@
 [
   {
-    "number": "IC 3055",
+    "number": "Stadsbus 12",
+    "operator": "U-bus",
     "begin_station": {
-      "name": "Amsterdam Centraal",
-      "uicCode": "8400058"
+      "name": "Utrecht, CS Centrumzijde",
+      "uicCode": "stop_UT_CS_C"
     },
     "end_station": {
-      "name": "Groningen",
-      "uicCode": "8400260"
+      "name": "Utrecht, UMC Hoofdingang",
+      "uicCode": "stop_UT_UMC_H"
     },
     "intermediate_stops": [
       {
-        "name": "Almere Centrum",
-        "uicCode": "8400080"
+        "name": "Utrecht, Vaartsche Rijn",
+        "uicCode": "stop_UT_VR"
       },
       {
-        "name": "Lelystad Centrum",
-        "uicCode": "8400394"
+        "name": "Utrecht, Neude",
+        "uicCode": "stop_UT_NEUDE"
       },
       {
-        "name": "Zwolle",
-        "uicCode": "8400747"
+        "name": "Utrecht, Stadsschouwburg",
+        "uicCode": "stop_UT_STSB"
       },
       {
-        "name": "Assen",
-        "uicCode": "8400073"
+        "name": "Utrecht, Rijnsweerd Noord",
+        "uicCode": "stop_UT_RIJNWN"
       }
     ],
-    "leg_durations_minutes": [20, 15, 30, 25, 20],
-    "total_time_minutes": 110,
-    "start_time": "2025-05-22T07:15:00+02:00",
-    "end_time": "2025-05-22T09:05:00+02:00"
+    "start_time": "2025-05-23T08:00:00+02:00",
+    "end_time": "2025-05-23T08:30:00+02:00",
+    "total_time_minutes": 30,
+    "leg_durations_minutes": [6, 7, 6, 6, 5]
   },
   {
-    "number": "IC 3057",
+    "number": "Interliner 387",
+    "operator": "RegioConnect",
     "begin_station": {
-      "name": "Amsterdam Centraal",
-      "uicCode": "8400058"
+      "name": "Utrecht, CS Jaarbeurszijde",
+      "uicCode": "stop_UT_CS_J"
     },
     "end_station": {
-      "name": "Groningen",
-      "uicCode": "8400260"
+      "name": "Gorinchem, Station",
+      "uicCode": "stop_GOR_ST"
     },
     "intermediate_stops": [
       {
-        "name": "Almere Centrum",
-        "uicCode": "8400080"
+        "name": "Utrecht, Vaartsche Rijn",
+        "uicCode": "stop_UT_VR"
       },
       {
-        "name": "Lelystad Centrum",
-        "uicCode": "8400394"
-      },
-      {
-        "name": "Zwolle",
-        "uicCode": "8400747"
-      },
-      {
-        "name": "Assen",
-        "uicCode": "8400073"
+        "name": "Vianen, Busstation Lekbrug",
+        "uicCode": "stop_VIA_BS"
       }
     ],
-    "leg_durations_minutes": [20, 15, 30, 25, 20],
-    "total_time_minutes": 110,
-    "start_time": "2025-05-22T08:45:00+02:00",
-    "end_time": "2025-05-22T10:35:00+02:00"
+    "start_time": "2025-05-23T08:10:00+02:00",
+    "end_time": "2025-05-23T08:55:00+02:00",
+    "total_time_minutes": 45,
+    "leg_durations_minutes": [7, 18, 20]
   },
   {
-    "number": "SPR 7442",
+    "number": "Streekbus 170",
+    "operator": "RegioConnect",
     "begin_station": {
-      "name": "Utrecht Centraal",
-      "uicCode": "8400621"
+      "name": "Utrecht, CS Jaarbeurszijde",
+      "uicCode": "stop_UT_CS_J"
     },
     "end_station": {
-      "name": "Baarn",
-      "uicCode": "8400090"
+      "name": "Amersfoort, Centraal Station",
+      "uicCode": "stop_AMF_CS"
     },
     "intermediate_stops": [
       {
-        "name": "Utrecht Overvecht",
-        "uicCode": "8400624"
+        "name": "Utrecht, Vaartsche Rijn",
+        "uicCode": "stop_UT_VR"
       },
       {
-        "name": "Den Dolder",
-        "uicCode": "8400180"
+        "name": "De Bilt, Centrum",
+        "uicCode": "stop_DBLT_C"
       },
       {
-        "name": "Bilthoven",
-        "uicCode": "8400118"
+        "name": "Zeist, Busstation",
+        "uicCode": "stop_ZEIST_BS"
       },
       {
-        "name": "Soestdijk",
-        "uicCode": "8400565"
+        "name": "Soesterberg, Centrum",
+        "uicCode": "stop_SOESTB_C"
+      },
+      {
+        "name": "Amersfoort, De Kei",
+        "uicCode": "stop_AMF_KEI"
       }
     ],
-    "leg_durations_minutes": [5, 8, 7, 6, 5],
-    "total_time_minutes": 31,
-    "start_time": "2025-05-22T06:32:00+02:00",
-    "end_time": "2025-05-22T07:03:00+02:00"
-  },
-  {
-    "number": "SPR 7446",
-    "begin_station": {
-      "name": "Utrecht Centraal",
-      "uicCode": "8400621"
-    },
-    "end_station": {
-      "name": "Baarn",
-      "uicCode": "8400090"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Utrecht Overvecht",
-        "uicCode": "8400624"
-      },
-      {
-        "name": "Den Dolder",
-        "uicCode": "8400180"
-      },
-      {
-        "name": "Bilthoven",
-        "uicCode": "8400118"
-      },
-      {
-        "name": "Soestdijk",
-        "uicCode": "8400565"
-      }
-    ],
-    "leg_durations_minutes": [5, 8, 7, 6, 5],
-    "total_time_minutes": 31,
-    "start_time": "2025-05-22T09:02:00+02:00",
-    "end_time": "2025-05-22T09:33:00+02:00"
-  },
-  {
-    "number": "BUS 300",
-    "begin_station": {
-      "name": "Haarlem Station",
-      "uicCode": "stop_HRLM_ST"
-    },
-    "end_station": {
-      "name": "Amsterdam Bijlmer ArenA",
-      "uicCode": "stop_ASB_AR"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Schiphol Airport",
-        "uicCode": "stop_SCHPL_AP"
-      },
-      {
-        "name": "Amstelveen Busstation",
-        "uicCode": "stop_AMLV_BS"
-      }
-    ],
-    "leg_durations_minutes": [30, 20, 25],
-    "total_time_minutes": 75,
-    "start_time": "2025-05-22T10:10:00+02:00",
-    "end_time": "2025-05-22T11:25:00+02:00"
-  },
-  {
-    "number": "BUS 301",
-    "begin_station": {
-      "name": "Haarlem Station",
-      "uicCode": "stop_HRLM_ST"
-    },
-    "end_station": {
-      "name": "Amsterdam Bijlmer ArenA",
-      "uicCode": "stop_ASB_AR"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Schiphol Airport",
-        "uicCode": "stop_SCHPL_AP"
-      },
-      {
-        "name": "Amstelveen Busstation",
-        "uicCode": "stop_AMLV_BS"
-      }
-    ],
-    "leg_durations_minutes": [30, 20, 25],
-    "total_time_minutes": 75,
-    "start_time": "2025-05-22T14:40:00+02:00",
-    "end_time": "2025-05-22T15:55:00+02:00"
-  },
-  {
-    "number": "IC 826",
-    "begin_station": {
-      "name": "Maastricht",
-      "uicCode": "8400410"
-    },
-    "end_station": {
-      "name": "Alkmaar",
-      "uicCode": "8400070"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Sittard",
-        "uicCode": "8400560"
-      },
-      {
-        "name": "Roermond",
-        "uicCode": "8400530"
-      },
-      {
-        "name": "Eindhoven Centraal",
-        "uicCode": "8400206"
-      },
-      {
-        "name": "'s-Hertogenbosch",
-        "uicCode": "8400319"
-      },
-      {
-        "name": "Utrecht Centraal",
-        "uicCode": "8400621"
-      },
-      {
-        "name": "Amsterdam Centraal",
-        "uicCode": "8400058"
-      },
-      {
-        "name": "Zaandam",
-        "uicCode": "8400740"
-      }
-    ],
-    "leg_durations_minutes": [15, 18, 20, 22, 20, 15, 10, 15],
-    "total_time_minutes": 135,
-    "start_time": "2025-05-22T09:08:00+02:00",
-    "end_time": "2025-05-22T11:23:00+02:00"
-  },
-  {
-    "number": "IC 828",
-    "begin_station": {
-      "name": "Maastricht",
-      "uicCode": "8400410"
-    },
-    "end_station": {
-      "name": "Alkmaar",
-      "uicCode": "8400070"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Sittard",
-        "uicCode": "8400560"
-      },
-      {
-        "name": "Roermond",
-        "uicCode": "8400530"
-      },
-      {
-        "name": "Eindhoven Centraal",
-        "uicCode": "8400206"
-      },
-      {
-        "name": "'s-Hertogenbosch",
-        "uicCode": "8400319"
-      },
-      {
-        "name": "Utrecht Centraal",
-        "uicCode": "8400621"
-      },
-      {
-        "name": "Amsterdam Centraal",
-        "uicCode": "8400058"
-      },
-      {
-        "name": "Zaandam",
-        "uicCode": "8400740"
-      }
-    ],
-    "leg_durations_minutes": [15, 18, 20, 22, 20, 15, 10, 15],
-    "total_time_minutes": 135,
-    "start_time": "2025-05-22T13:38:00+02:00",
-    "end_time": "2025-05-22T15:53:00+02:00"
-  },
-  {
-    "number": "BUS 170",
-    "begin_station": {
-      "name": "Rotterdam Centraal",
-      "uicCode": "stop_RTM_CS"
-    },
-    "end_station": {
-      "name": "Gouda Station",
-      "uicCode": "stop_GDA_ST"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Capelle Centrum (Metro)",
-        "uicCode": "stop_CAP_C"
-      },
-      {
-        "name": "Nieuwerkerk a/d IJssel",
-        "uicCode": "stop_NWK_IJ"
-      },
-      {
-        "name": "Moordrecht",
-        "uicCode": "stop_MDRCHT"
-      }
-    ],
-    "leg_durations_minutes": [20, 15, 10, 12],
-    "total_time_minutes": 57,
-    "start_time": "2025-05-22T07:50:00+02:00",
-    "end_time": "2025-05-22T08:47:00+02:00"
-  },
-  {
-    "number": "SPR 6067",
-    "begin_station": {
-      "name": "Arnhem Centraal",
-      "uicCode": "8400078"
-    },
-    "end_station": {
-      "name": "Doetinchem",
-      "uicCode": "8400184"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Velp",
-        "uicCode": "8400638"
-      },
-      {
-        "name": "Rheden",
-        "uicCode": "8400520"
-      },
-      {
-        "name": "Dieren",
-        "uicCode": "8400182"
-      },
-      {
-        "name": "Doesburg",
-        "uicCode": "8400185"
-      },
-      {
-        "name": "Wehl",
-        "uicCode": "8400675"
-      }
-    ],
-    "leg_durations_minutes": [7, 6, 8, 10, 7, 8],
-    "total_time_minutes": 46,
-    "start_time": "2025-05-22T16:12:00+02:00",
-    "end_time": "2025-05-22T16:58:00+02:00"
-  },
-  {
-    "number": "IC 2845",
-    "begin_station": {
-      "name": "Den Haag Centraal",
-      "uicCode": "8400280"
-    },
-    "end_station": {
-      "name": "Enschede",
-      "uicCode": "8400211"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Gouda",
-        "uicCode": "8400253"
-      },
-      {
-        "name": "Utrecht Centraal",
-        "uicCode": "8400621"
-      },
-      {
-        "name": "Amersfoort Centraal",
-        "uicCode": "8400055"
-      },
-      {
-        "name": "Apeldoorn",
-        "uicCode": "8400063"
-      },
-      {
-        "name": "Deventer",
-        "uicCode": "8400179"
-      },
-      {
-        "name": "Almelo",
-        "uicCode": "8400071"
-      },
-      {
-        "name": "Hengelo",
-        "uicCode": "8400295"
-      }
-    ],
-    "leg_durations_minutes": [18, 20, 15, 25, 10, 15, 8, 10],
-    "total_time_minutes": 121,
-    "start_time": "2025-05-22T11:03:00+02:00",
-    "end_time": "2025-05-22T13:04:00+02:00"
-  },
-  {
-    "number": "IC 2847",
-    "begin_station": {
-      "name": "Den Haag Centraal",
-      "uicCode": "8400280"
-    },
-    "end_station": {
-      "name": "Enschede",
-      "uicCode": "8400211"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Gouda",
-        "uicCode": "8400253"
-      },
-      {
-        "name": "Utrecht Centraal",
-        "uicCode": "8400621"
-      },
-      {
-        "name": "Amersfoort Centraal",
-        "uicCode": "8400055"
-      },
-      {
-        "name": "Apeldoorn",
-        "uicCode": "8400063"
-      },
-      {
-        "name": "Deventer",
-        "uicCode": "8400179"
-      },
-      {
-        "name": "Almelo",
-        "uicCode": "8400071"
-      },
-      {
-        "name": "Hengelo",
-        "uicCode": "8400295"
-      }
-    ],
-    "leg_durations_minutes": [18, 20, 15, 25, 10, 15, 8, 10],
-    "total_time_minutes": 121,
-    "start_time": "2025-05-22T15:33:00+02:00",
-    "end_time": "2025-05-22T17:34:00+02:00"
-  },
-  {
-    "number": "IC 2042",
-    "begin_station": {
-      "name": "Rotterdam Centraal",
-      "uicCode": "8400530"
-    },
-    "end_station": {
-      "name": "Leeuwarden",
-      "uicCode": "8400383"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Schiphol Airport",
-        "uicCode": "8400555"
-      },
-      {
-        "name": "Amsterdam Zuid",
-        "uicCode": "8400061"
-      },
-      {
-        "name": "Almere Centrum",
-        "uicCode": "8400080"
-      },
-      {
-        "name": "Lelystad Centrum",
-        "uicCode": "8400394"
-      },
-      {
-        "name": "Zwolle",
-        "uicCode": "8400747"
-      },
-      {
-        "name": "Steenwijk",
-        "uicCode": "8400570"
-      },
-      {
-        "name": "Heerenveen",
-        "uicCode": "8400290"
-      }
-    ],
-    "leg_durations_minutes": [25, 10, 18, 15, 30, 15, 12, 10],
-    "total_time_minutes": 135,
-    "start_time": "2025-05-22T06:55:00+02:00",
-    "end_time": "2025-05-22T09:10:00+02:00"
-  },
-  {
-    "number": "SPR 4030",
-    "begin_station": {
-      "name": "Eindhoven Centraal",
-      "uicCode": "8400206"
-    },
-    "end_station": {
-      "name": "Venlo",
-      "uicCode": "8400641"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Helmond",
-        "uicCode": "8400296"
-      },
-      {
-        "name": "Helmond 't Hout",
-        "uicCode": "8400298"
-      },
-      {
-        "name": "Deurne",
-        "uicCode": "8400178"
-      },
-      {
-        "name": "Horst-Sevenum",
-        "uicCode": "8400328"
-      },
-      {
-        "name": "Blerick",
-        "uicCode": "8400120"
-      }
-    ],
-    "leg_durations_minutes": [12, 5, 8, 10, 7, 6],
-    "total_time_minutes": 48,
-    "start_time": "2025-05-22T17:05:00+02:00",
-    "end_time": "2025-05-22T17:53:00+02:00"
-  },
-  {
-    "number": "BUS 401",
-    "begin_station": {
-      "name": "Utrecht Centraal, CS Jaarbeurszijde",
-      "uicCode": "stop_UT_CSJZ"
-    },
-    "end_station": {
-      "name": "Vianen, Busstation Lekbrug Oost",
-      "uicCode": "stop_VIA_BLO"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Utrecht, Papendorp Zuid",
-        "uicCode": "stop_UT_PPDPZ"
-      },
-      {
-        "name": "Nieuwegein, City (Sneltramhalte)",
-        "uicCode": "stop_NWG_CITY"
-      },
-      {
-        "name": "Vianen, Hagenweg",
-        "uicCode": "stop_VIA_HGW"
-      }
-    ],
-    "leg_durations_minutes": [15, 10, 8, 7],
-    "total_time_minutes": 40,
-    "start_time": "2025-05-22T12:20:00+02:00",
-    "end_time": "2025-05-22T13:00:00+02:00"
-  },
-  {
-    "number": "IC 145",
-    "begin_station": {
-      "name": "Amsterdam Centraal",
-      "uicCode": "8400058"
-    },
-    "end_station": {
-      "name": "Brussel-Zuid/Midi",
-      "uicCode": "8800001"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Schiphol Airport",
-        "uicCode": "8400555"
-      },
-      {
-        "name": "Rotterdam Centraal",
-        "uicCode": "8400530"
-      },
-      {
-        "name": "Breda",
-        "uicCode": "8400125"
-      },
-      {
-        "name": "Noorderkempen",
-        "uicCode": "8821118"
-      },
-      {
-        "name": "Antwerpen-Centraal",
-        "uicCode": "8821006"
-      },
-      {
-        "name": "Brussel-Noord",
-        "uicCode": "8811005"
-      }
-    ],
-    "leg_durations_minutes": [15, 25, 25, 20, 20, 30, 5],
-    "total_time_minutes": 140,
-    "start_time": "2025-05-22T10:52:00+02:00",
-    "end_time": "2025-05-22T13:12:00+02:00"
-  },
-  {
-    "number": "SPR 9750",
-    "begin_station": {
-      "name": "Zwolle",
-      "uicCode": "8400747"
-    },
-    "end_station": {
-      "name": "Emmen",
-      "uicCode": "8400209"
-    },
-    "intermediate_stops": [
-      {
-        "name": "Dalfsen",
-        "uicCode": "8400170"
-      },
-      {
-        "name": "Ommen",
-        "uicCode": "8400480"
-      },
-      {
-        "name": "Mariënberg",
-        "uicCode": "8400418"
-      },
-      {
-        "name": "Hardenberg",
-        "uicCode": "8400278"
-      },
-      {
-        "name": "Coevorden",
-        "uicCode": "8400160"
-      },
-      {
-        "name": "Nieuw Amsterdam",
-        "uicCode": "8400450"
-      }
-    ],
-    "leg_durations_minutes": [10, 12, 8, 10, 10, 8, 7],
+    "start_time": "2025-05-23T08:15:00+02:00",
+    "end_time": "2025-05-23T09:20:00+02:00",
     "total_time_minutes": 65,
-    "start_time": "2025-05-22T18:07:00+02:00",
-    "end_time": "2025-05-22T19:12:00+02:00"
+    "leg_durations_minutes": [7, 13, 12, 10, 8, 15]
   },
   {
-    "number": "BUS 1",
+    "number": "Streekbus 272",
+    "operator": "RegioConnect",
     "begin_station": {
-      "name": "Groningen Hoofdstation",
-      "uicCode": "stop_GR_HS"
+      "name": "Amersfoort, Centraal Station",
+      "uicCode": "stop_AMF_CS"
     },
     "end_station": {
-      "name": "Groningen Zernike Campus",
-      "uicCode": "stop_GR_ZERN"
+      "name": "Amsterdam, Amstelstation",
+      "uicCode": "stop_ASD_AMST"
     },
     "intermediate_stops": [
       {
-        "name": "Groningen, Grote Markt",
-        "uicCode": "stop_GR_GM"
+        "name": "Amersfoort, De Kei",
+        "uicCode": "stop_AMF_KEI"
       },
       {
-        "name": "Groningen, UMCG Noord",
-        "uicCode": "stop_GR_UMCGN"
+        "name": "Hilversum, Station",
+        "uicCode": "stop_HVS_ST"
       },
       {
-        "name": "Groningen, Nijenborg",
-        "uicCode": "stop_GR_NIJEN"
+        "name": "Naarden-Bussum, Station",
+        "uicCode": "stop_NDBS_ST"
       }
     ],
-    "leg_durations_minutes": [8, 7, 5, 5],
-    "total_time_minutes": 25,
-    "start_time": "2025-05-22T08:10:00+02:00",
-    "end_time": "2025-05-22T08:35:00+02:00"
+    "start_time": "2025-05-23T09:30:00+02:00",
+    "end_time": "2025-05-23T10:30:00+02:00",
+    "total_time_minutes": 60,
+    "leg_durations_minutes": [5, 20, 15, 20]
   },
   {
-    "number": "IC 3660",
+    "number": "Streekbus 172",
+    "operator": "RegioConnect",
     "begin_station": {
-      "name": "Roosendaal",
-      "uicCode": "8400532"
+      "name": "Amstelveen, Busstation",
+      "uicCode": "stop_AMV_BS"
     },
     "end_station": {
-      "name": "Vlissingen",
-      "uicCode": "8400650"
+      "name": "Amsterdam, Centraal Station",
+      "uicCode": "stop_ASD_CS"
     },
     "intermediate_stops": [
       {
-        "name": "Bergen op Zoom",
-        "uicCode": "8400103"
+        "name": "Amstelveen, Ouderkerkerlaan",
+        "uicCode": "stop_AMV_OKL"
       },
       {
-        "name": "Goes",
-        "uicCode": "8400250"
+        "name": "Amsterdam, Station Zuid",
+        "uicCode": "stop_ASD_ZUID"
       },
       {
-        "name": "Middelburg",
-        "uicCode": "8400430"
+        "name": "Amsterdam, Amstelstation",
+        "uicCode": "stop_ASD_AMST"
       }
     ],
-    "leg_durations_minutes": [12, 20, 10, 8],
+    "start_time": "2025-05-23T10:40:00+02:00",
+    "end_time": "2025-05-23T11:30:00+02:00",
     "total_time_minutes": 50,
-    "start_time": "2025-05-22T07:34:00+02:00",
-    "end_time": "2025-05-22T08:24:00+02:00"
+    "leg_durations_minutes": [10, 13, 12, 15]
   },
   {
-    "number": "IC 3662",
+    "number": "Stadsbus 22",
+    "operator": "Stadsvervoer A'dam",
     "begin_station": {
-      "name": "Roosendaal",
-      "uicCode": "8400532"
+      "name": "Amsterdam, Station Sloterdijk",
+      "uicCode": "stop_ASL_ST"
     },
     "end_station": {
-      "name": "Vlissingen",
-      "uicCode": "8400650"
+      "name": "Amsterdam, Centraal Station",
+      "uicCode": "stop_ASD_CS"
     },
     "intermediate_stops": [
       {
-        "name": "Bergen op Zoom",
-        "uicCode": "8400103"
+        "name": "Amsterdam, Spaarndammerbuurt",
+        "uicCode": "stop_ASD_SPB"
       },
       {
-        "name": "Goes",
-        "uicCode": "8400250"
-      },
-      {
-        "name": "Middelburg",
-        "uicCode": "8400430"
+        "name": "Amsterdam, Haarlemmerplein",
+        "uicCode": "stop_ASD_HRP"
       }
     ],
-    "leg_durations_minutes": [12, 20, 10, 8],
-    "total_time_minutes": 50,
-    "start_time": "2025-05-22T19:04:00+02:00",
-    "end_time": "2025-05-22T19:54:00+02:00"
+    "start_time": "2025-05-23T09:00:00+02:00",
+    "end_time": "2025-05-23T09:20:00+02:00",
+    "total_time_minutes": 20,
+    "leg_durations_minutes": [7, 7, 6]
   }
 ]

@@ -17,7 +17,7 @@ public class Traject {
     String number;
     String transferMessages;
     String duration;
-    ArrayList<String> inBetweenTrajects;
+    List<String> inBetweenTrajects;
     String vehicle;
     int inBetweenTrajectsSize = 0;
 
@@ -37,7 +37,7 @@ public class Traject {
         this.to = to;
     }
 
-    public Traject(Stop from, Stop to, List<Stop> stops, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, ArrayList<String> inBetweenTrajects, String vehicle) {
+    public Traject(Stop from, Stop to, List<Stop> stops, String timeDeparture, String timeArrival, String number, String transferMessages, String duration, List<String> inBetweenTrajects, String vehicle) {
         this.from = from;
         this.to = to;
         this.stops = stops;
@@ -123,6 +123,20 @@ public class Traject {
         }
 
         return trajectInfo;
+    }
+
+    public ArrayList<String> getFullTraject() {
+        ArrayList<String> fullTraject = new ArrayList<>();
+
+        fullTraject.add(from.getName());
+
+        for (Stop stop: stops) {
+            fullTraject.add(stop.getName());
+        }
+
+        fullTraject.add(to.getName());
+
+        return fullTraject;
     }
 
     public String getNumber() {
