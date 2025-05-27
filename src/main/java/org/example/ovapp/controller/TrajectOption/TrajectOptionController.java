@@ -36,7 +36,7 @@ public class TrajectOptionController {
     }
 
     public void handleLogoutButtonAction() {
-        ScreenHandler.changeScreen("login-page.fxml", OVApp.currentStage);
+        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage);
     }
 
     public void handleSwapLocationsButtonAction() {
@@ -54,7 +54,7 @@ public class TrajectOptionController {
     public void searchTrajectButtonClicked() {
         selectedRoute = searchTrajectComponent.getRoute();
         if (selectedRoute == null) return;
-        ScreenHandler.changeScreen("traject-list.fxml", OVApp.currentStage);
+        ScreenHandler.changeScreen("traject-list.fxml", ScreenHandler.currentStage);
     }
 
     public void handleMenuButtonAction(ActionEvent actionEvent) {

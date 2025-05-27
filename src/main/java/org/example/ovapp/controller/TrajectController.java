@@ -36,7 +36,7 @@ public class TrajectController {
     /// Go back to
     @FXML
     public void onBackButtonClicked() {
-        ScreenHandler.changeScreen("traject-list", OVApp.currentStage);
+        ScreenHandler.changeScreen("traject-list", ScreenHandler.currentStage);
     }
 
     public void handleMenuButtonAction(ActionEvent actionEvent) {

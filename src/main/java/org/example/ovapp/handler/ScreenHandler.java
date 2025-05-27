@@ -15,11 +15,11 @@ import org.example.ovapp.OVApp;
 import java.io.IOException;
 import java.util.Objects;
 
-import static org.example.ovapp.OVApp.currentStage;
 
 public class ScreenHandler {
+    public static Stage currentStage;
 
-    /// Change screen with input (file.fxml, Title of screen, getStage(actionEvent), Constant.screenWith, Constant.screenHeight)
+
     public static void changeScreen(String screenName, Stage stage) {
         try {
             FXMLLoader fxmlLoader = screenName.contains(".fxml") ? new FXMLLoader(OVApp.class.getResource(screenName)) : new FXMLLoader(OVApp.class.getResource(screenName + ".fxml"));
@@ -35,19 +35,22 @@ public class ScreenHandler {
         }
     }
 
-    public static void openNewScene(String screenName) {
+    public static void openNewScene(String screenName, int height, int width, Stage oldStage) {
         try {
-            currentStage.close();
+            if (oldStage != null) oldStage.close();
 
             FXMLLoader fxmlLoader = screenName.contains(".fxml") ? new FXMLLoader(OVApp.class.getResource(screenName)) : new FXMLLoader(OVApp.class.getResource(screenName + ".fxml"));
-            Scene scene = new Scene(fxmlLoader.load());
-            Stage stage = currentStage;
+            Scene scene = new Scene(fxmlLoader.load(), height, width);
+            Stage stage = new Stage();
+
+            currentStage = stage;
 
             stage.setTitle("Bazaar Tracker");
 
-            Image icon = new Image(Objects.requireNonNull(OVApp.class.getResourceAsStream("BazaarTracker.ico")));
-            stage.getIcons().add(icon);
-
+            currentStage.setTitle("OVApp");
+            currentStage.setScene(scene);
+            currentStage.show();
+            currentStage.setResizable(false);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

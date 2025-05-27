@@ -7,7 +7,7 @@ import org.example.ovapp.handler.ScreenHandler;
 public class LoginController {
     @FXML
     protected void onLoginButtonClicked() {
-        ScreenHandler.changeScreen("chose-menu.fxml", OVApp.currentStage);
+        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage);
 
     }
 
