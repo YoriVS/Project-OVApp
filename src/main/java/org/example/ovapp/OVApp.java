@@ -10,7 +10,7 @@ public class OVApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        ScreenHandler.openNewScene("login-page", 500, 300, primaryStage);
+        ScreenHandler.openNewScene("login-page", 300, 500, primaryStage);
     }
 
     public static void main(String[] args) {

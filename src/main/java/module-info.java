@@ -4,6 +4,7 @@ module org.example.ovapp {
     requires json.simple;
     requires com.opencsv;
     requires java.sql;
+    requires jaxb.api;
 
 
     opens org.example.ovapp to javafx.fxml;
@@ -20,4 +21,8 @@ module org.example.ovapp {
     opens org.example.ovapp.traject.train to javafx.fxml;
     exports org.example.ovapp.nsApi.train;
     opens org.example.ovapp.nsApi.train to javafx.fxml;
+    exports org.example.ovapp.traject.bus;
+    opens org.example.ovapp.traject.bus to javafx.fxml;
+    exports org.example.ovapp.user;
+    opens org.example.ovapp.user to javafx.fxml;
 }

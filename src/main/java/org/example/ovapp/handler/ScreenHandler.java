@@ -35,12 +35,29 @@ public class ScreenHandler {
         }
     }
 
+    public static void changeScreen(String screenName, Stage stage, int width, int height) {
+        try {
+            FXMLLoader fxmlLoader = screenName.contains(".fxml") ? new FXMLLoader(OVApp.class.getResource(screenName)) : new FXMLLoader(OVApp.class.getResource(screenName + ".fxml"));
+            Scene scene = new Scene(fxmlLoader.load());
+
+            stage.setTitle("OVApp");
+
+            stage.setScene(scene);
+            stage.setWidth(width);
+            stage.setHeight(height);
+            stage.show();
+        } catch (IOException e) {
+            ScreenHandler.openPopup("Failed to open screen");
+            System.out.println(e.getMessage());
+        }
+    }
+
     public static void openNewScene(String screenName, int height, int width, Stage oldStage) {
         try {
             if (oldStage != null) oldStage.close();
 
             FXMLLoader fxmlLoader = screenName.contains(".fxml") ? new FXMLLoader(OVApp.class.getResource(screenName)) : new FXMLLoader(OVApp.class.getResource(screenName + ".fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), height, width);
+            Scene scene = new Scene(fxmlLoader.load(), width, height);
             Stage stage = new Stage();
 
             currentStage = stage;
@@ -51,6 +68,8 @@ public class ScreenHandler {
             currentStage.setScene(scene);
             currentStage.show();
             currentStage.setResizable(false);
+            currentStage.setWidth(width);
+            currentStage.setHeight(height);
             stage.setScene(scene);
             stage.show();
         } catch (IOException e) {

@@ -11,22 +11,10 @@
       "uicCode": "stop_UT_UMC_H"
     },
     "intermediate_stops": [
-      {
-        "name": "Utrecht, Vaartsche Rijn",
-        "uicCode": "stop_UT_VR"
-      },
-      {
-        "name": "Utrecht, Neude",
-        "uicCode": "stop_UT_NEUDE"
-      },
-      {
-        "name": "Utrecht, Stadsschouwburg",
-        "uicCode": "stop_UT_STSB"
-      },
-      {
-        "name": "Utrecht, Rijnsweerd Noord",
-        "uicCode": "stop_UT_RIJNWN"
-      }
+      {"name": "Utrecht, Vaartsche Rijn", "uicCode": "stop_UT_VR"},
+      {"name": "Utrecht, Neude", "uicCode": "stop_UT_NEUDE"},
+      {"name": "Utrecht, Stadsschouwburg", "uicCode": "stop_UT_STSB"},
+      {"name": "Utrecht, Rijnsweerd Noord", "uicCode": "stop_UT_RIJNWN"}
     ],
     "start_time": "2025-05-23T08:00:00+02:00",
     "end_time": "2025-05-23T08:30:00+02:00",
@@ -45,14 +33,8 @@
       "uicCode": "stop_GOR_ST"
     },
     "intermediate_stops": [
-      {
-        "name": "Utrecht, Vaartsche Rijn",
-        "uicCode": "stop_UT_VR"
-      },
-      {
-        "name": "Vianen, Busstation Lekbrug",
-        "uicCode": "stop_VIA_BS"
-      }
+      {"name": "Utrecht, Vaartsche Rijn", "uicCode": "stop_UT_VR"},
+      {"name": "Vianen, Busstation Lekbrug", "uicCode": "stop_VIA_BS"}
     ],
     "start_time": "2025-05-23T08:10:00+02:00",
     "end_time": "2025-05-23T08:55:00+02:00",
@@ -71,26 +53,11 @@
       "uicCode": "stop_AMF_CS"
     },
     "intermediate_stops": [
-      {
-        "name": "Utrecht, Vaartsche Rijn",
-        "uicCode": "stop_UT_VR"
-      },
-      {
-        "name": "De Bilt, Centrum",
-        "uicCode": "stop_DBLT_C"
-      },
-      {
-        "name": "Zeist, Busstation",
-        "uicCode": "stop_ZEIST_BS"
-      },
-      {
-        "name": "Soesterberg, Centrum",
-        "uicCode": "stop_SOESTB_C"
-      },
-      {
-        "name": "Amersfoort, De Kei",
-        "uicCode": "stop_AMF_KEI"
-      }
+      {"name": "Utrecht, Vaartsche Rijn", "uicCode": "stop_UT_VR"},
+      {"name": "De Bilt, Centrum", "uicCode": "stop_DBLT_C"},
+      {"name": "Zeist, Busstation", "uicCode": "stop_ZEIST_BS"},
+      {"name": "Soesterberg, Centrum", "uicCode": "stop_SOESTB_C"},
+      {"name": "Amersfoort, De Kei", "uicCode": "stop_AMF_KEI"}
     ],
     "start_time": "2025-05-23T08:15:00+02:00",
     "end_time": "2025-05-23T09:20:00+02:00",
@@ -109,18 +76,9 @@
       "uicCode": "stop_ASD_AMST"
     },
     "intermediate_stops": [
-      {
-        "name": "Amersfoort, De Kei",
-        "uicCode": "stop_AMF_KEI"
-      },
-      {
-        "name": "Hilversum, Station",
-        "uicCode": "stop_HVS_ST"
-      },
-      {
-        "name": "Naarden-Bussum, Station",
-        "uicCode": "stop_NDBS_ST"
-      }
+      {"name": "Amersfoort, De Kei", "uicCode": "stop_AMF_KEI"},
+      {"name": "Hilversum, Station", "uicCode": "stop_HVS_ST"},
+      {"name": "Naarden-Bussum, Station", "uicCode": "stop_NDBS_ST"}
     ],
     "start_time": "2025-05-23T09:30:00+02:00",
     "end_time": "2025-05-23T10:30:00+02:00",
@@ -139,18 +97,9 @@
       "uicCode": "stop_ASD_CS"
     },
     "intermediate_stops": [
-      {
-        "name": "Amstelveen, Ouderkerkerlaan",
-        "uicCode": "stop_AMV_OKL"
-      },
-      {
-        "name": "Amsterdam, Station Zuid",
-        "uicCode": "stop_ASD_ZUID"
-      },
-      {
-        "name": "Amsterdam, Amstelstation",
-        "uicCode": "stop_ASD_AMST"
-      }
+      {"name": "Amstelveen, Ouderkerkerlaan", "uicCode": "stop_AMV_OKL"},
+      {"name": "Amsterdam, Station Zuid", "uicCode": "stop_ASD_ZUID"},
+      {"name": "Amsterdam, Amstelstation", "uicCode": "stop_ASD_AMST"}
     ],
     "start_time": "2025-05-23T10:40:00+02:00",
     "end_time": "2025-05-23T11:30:00+02:00",
@@ -169,18 +118,95 @@
       "uicCode": "stop_ASD_CS"
     },
     "intermediate_stops": [
-      {
-        "name": "Amsterdam, Spaarndammerbuurt",
-        "uicCode": "stop_ASD_SPB"
-      },
-      {
-        "name": "Amsterdam, Haarlemmerplein",
-        "uicCode": "stop_ASD_HRP"
-      }
+      {"name": "Amsterdam, Spaarndammerbuurt", "uicCode": "stop_ASD_SPB"},
+      {"name": "Amsterdam, Haarlemmerplein", "uicCode": "stop_ASD_HRP"}
     ],
     "start_time": "2025-05-23T09:00:00+02:00",
     "end_time": "2025-05-23T09:20:00+02:00",
     "total_time_minutes": 20,
     "leg_durations_minutes": [7, 7, 6]
+  },
+  {
+    "number": "Gooilijn 100",
+    "operator": "GooiConnect",
+    "begin_station": {
+      "name": "Hilversum, Station",
+      "uicCode": "stop_HVS_ST"
+    },
+    "end_station": {
+      "name": "Utrecht, CS Jaarbeurszijde",
+      "uicCode": "stop_UT_CS_J"
+    },
+    "intermediate_stops": [
+      {"name": "Naarden-Bussum, Station", "uicCode": "stop_NDBS_ST"},
+      {"name": "Bussum, Centrum", "uicCode": "stop_BSM_C"},
+      {"name": "De Bilt, Centrum", "uicCode": "stop_DBLT_C"},
+      {"name": "Utrecht, Vaartsche Rijn", "uicCode": "stop_UT_VR"}
+    ],
+    "start_time": "2025-05-23T11:00:00+02:00",
+    "end_time": "2025-05-23T11:55:00+02:00",
+    "total_time_minutes": 55,
+    "leg_durations_minutes": [10, 8, 15, 10, 12]
+  },
+  {
+    "number": "AirportLink 300",
+    "operator": "Airport Express",
+    "begin_station": {
+      "name": "Amsterdam, Station Zuid",
+      "uicCode": "stop_ASD_ZUID"
+    },
+    "end_station": {
+      "name": "Schiphol, Airport Plaza",
+      "uicCode": "stop_SHL_PLZ"
+    },
+    "intermediate_stops": [
+      {"name": "Amsterdam, VU Medisch Centrum", "uicCode": "stop_ASD_VUMC"}
+    ],
+    "start_time": "2025-05-23T11:45:00+02:00",
+    "end_time": "2025-05-23T12:10:00+02:00",
+    "total_time_minutes": 25,
+    "leg_durations_minutes": [10, 15]
+  },
+  {
+    "number": "KrommeRijnLijn 45",
+    "operator": "KrommeRijn Vervoer",
+    "begin_station": {
+      "name": "Zeist, Busstation",
+      "uicCode": "stop_ZEIST_BS"
+    },
+    "end_station": {
+      "name": "Vianen, Busstation Lekbrug",
+      "uicCode": "stop_VIA_BS"
+    },
+    "intermediate_stops": [
+      {"name": "Odijk, Centrum", "uicCode": "stop_ODI_C"},
+      {"name": "Houten, Station Castellum", "uicCode": "stop_HOUT_CAST"},
+      {"name": "Nieuwegein, Cityplaza", "uicCode": "stop_NWG_CITY"}
+    ],
+    "start_time": "2025-05-23T09:40:00+02:00",
+    "end_time": "2025-05-23T10:35:00+02:00",
+    "total_time_minutes": 55,
+    "leg_durations_minutes": [12, 15, 13, 15]
+  },
+  {
+    "number": "MerwedeLiner 405",
+    "operator": "Drechtsteden Vervoer",
+    "begin_station": {
+      "name": "Gorinchem, Station",
+      "uicCode": "stop_GOR_ST"
+    },
+    "end_station": {
+      "name": "Dordrecht, Centraal Station",
+      "uicCode": "stop_DOR_CS"
+    },
+    "intermediate_stops": [
+      {"name": "Sleeuwijk, Tol", "uicCode": "stop_SLW_TOL"},
+      {"name": "Werkendam, Plein", "uicCode": "stop_WRKD_PL"},
+      {"name": "Papendrecht, Busstation", "uicCode": "stop_PAP_BS"}
+    ],
+    "start_time": "2025-05-23T09:05:00+02:00",
+    "end_time": "2025-05-23T10:00:00+02:00",
+    "total_time_minutes": 55,
+    "leg_durations_minutes": [15, 10, 15, 15]
   }
 ]

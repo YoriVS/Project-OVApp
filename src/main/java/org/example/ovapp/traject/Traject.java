@@ -125,7 +125,7 @@ public class Traject {
         return trajectInfo;
     }
 
-    public ArrayList<String> getFullTraject() {
+    public ArrayList<String> getOnlyStopsNameTraject() {
         ArrayList<String> fullTraject = new ArrayList<>();
 
         fullTraject.add(from.getName());

@@ -42,7 +42,7 @@ public class TrajectListController {
             OVApp.currentTraject = selectedTraject;
             ScreenHandler.changeScreen("traject-page.fxml", ScreenHandler.currentStage);
         } else {
-            System.out.println("Please select a Traject.");
+            ScreenHandler.openPopup("Please select Traject");
         }
     }
 
@@ -70,11 +70,11 @@ public class TrajectListController {
     /// Go back to Traject Option Selector
     @FXML
     public void handleBackButtonAction() {
-        ScreenHandler.changeScreen("chose-menu", ScreenHandler.currentStage);
+        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage, 600, 400);
     }
 
     public void handleMenuButtonAction(ActionEvent actionEvent) {
-        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage);
+        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage, 600, 400);
     }
 
     public void handleSettingsButtonAction(ActionEvent actionEvent) {
@@ -82,11 +82,12 @@ public class TrajectListController {
     }
 
     public void handleRestartButtonAction(ActionEvent actionEvent) {
-        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage);
+        ScreenHandler.changeScreen("chose-menu.fxml", ScreenHandler.currentStage, 600, 400);
     }
 
     public void handleLogoutButtonAction(ActionEvent actionEvent) {
-        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage);
+        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage, 500, 300);
+//        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage);
     }
 
 }

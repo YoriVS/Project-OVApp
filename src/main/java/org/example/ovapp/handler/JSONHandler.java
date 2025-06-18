@@ -5,10 +5,7 @@ import org.example.ovapp.OVApp;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import java.io.FileReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
 
 public class JSONHandler {
 
@@ -38,6 +35,16 @@ public class JSONHandler {
             System.err.println("ERROR: Could not parse JSON from resource '" + resourcePath + "'. Details: " + e.getMessage());
             e.printStackTrace();
             return new JSONArray();
+        }
+    }
+
+    public static void saveJsonArray(String path, JSONArray array) {
+        path = "src/main/resources/" + path;
+        try (FileWriter file = new FileWriter(path)) {
+            file.write(array.toJSONString());
+            file.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

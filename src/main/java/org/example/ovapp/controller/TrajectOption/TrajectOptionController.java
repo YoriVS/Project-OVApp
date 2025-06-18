@@ -36,7 +36,8 @@ public class TrajectOptionController {
     }
 
     public void handleLogoutButtonAction() {
-        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage);
+        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage, 500, 300);
+//        ScreenHandler.changeScreen("login-page.fxml", ScreenHandler.currentStage);
     }
 
     public void handleSwapLocationsButtonAction() {

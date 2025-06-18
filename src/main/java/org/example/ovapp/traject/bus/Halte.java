@@ -15,6 +15,11 @@ public class Halte extends Stop {
         this.transferStation = transferStation;
     }
 
+    public Halte(String uicCode, String name, boolean transferStation) {
+        super(uicCode, name);
+        this.transferStation = transferStation;
+    }
+
     public String getArrivalTime() {
         return arrivalTime;
     }

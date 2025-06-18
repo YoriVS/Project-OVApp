@@ -2,6 +2,8 @@ package org.example.ovapp.traject;
 
 import org.example.ovapp.handler.TimeHandler;
 
+import java.util.Objects;
+
 public class Stop {
     private String arrivalTime;
     private String departureTime;
@@ -16,6 +18,13 @@ public class Stop {
     @Override
     public String toString() {
         return name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        return Objects.equals(this.getName(), o.toString());
     }
 
     public String getName() {
